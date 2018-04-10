@@ -1,0 +1,5 @@
+Map Icons don't return to their icon state after clicking, just stay in name form.
+Names in the Church don't appear, however clicking on a GUi option brings it back.
+Ends at Church, continue adding from there.
+
+Church -> Mary's -> Peter's -> Gas Station -> Hartman -> Legion -> Taxidermy -> Mayor's Office -> Katie's Kitchen -> Gerald
