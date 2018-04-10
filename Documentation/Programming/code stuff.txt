@@ -1,0 +1,30 @@
+	Music File types: OGG, MP3, MIDI, WAV (uncompressed), MOD, XM, IT, S3M and VOC.	
+
+	// if using in dialog all coding needs to be in the dialog interaction sequence.
+
+	int rep = character.GetProperty("Reputation");
+	Dialog(actual name of dialog file).SetOptionState(int (option), eOptionOn (Option state to set to));
+
+	character.SetProperty("Reputation", rep);
+
+	character.AddInventory(iEnvClose);
+	Wait(40);
+
+	character.EnterRoom(3, 40, 80, eDirectionDown); //short script direction to eDir_Down
+
+	PlayMusicOnRoomLoad
+
+	character.AddInventory(item); // adds an item to the characters inventory.
+
+	character.EnterRoom(int room#, x, y, facingDirection); // needs the room number, it's location in the room, and the direction in which it is facing.
+
+	character.Move(x, y, optional blockingStyle, optional WalkWhere); // sets the character to move to a location within the same room.
+
+	character.Say("string"); says the string.
+	character.SayAt(x, y, width, "string"); says the string at a specific position.
+
+	String optionText = char.GetOptionText("n"); // Gets the option text.
+
+	Display("%s", optionText); // prints the retrieve optionText
+
+	
