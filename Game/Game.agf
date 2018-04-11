@@ -1199,7 +1199,7 @@
                     <Height>20</Height>
                     <Locked>False</Locked>
                     <Width>65</Width>
-                    <Left>175</Left>
+                    <Left>171</Left>
                     <Top>49</Top>
                     <ZOrder>2</ZOrder>
                     <ID>2</ID>
@@ -1899,8 +1899,8 @@
               <GUIMain>
                 <NormalGUI>
                   <OnClick />
-                  <Height>10</Height>
-                  <Width>264</Width>
+                  <Height>35</Height>
+                  <Width>240</Width>
                   <Left>48</Left>
                   <Top>0</Top>
                   <Clickable>False</Clickable>
@@ -1910,7 +1910,7 @@
                   <BorderColor>0</BorderColor>
                   <Transparency>0</Transparency>
                   <BackgroundColor>0</BackgroundColor>
-                  <BackgroundImage>0</BackgroundImage>
+                  <BackgroundImage>656</BackgroundImage>
                   <ID>10</ID>
                   <Name>gMain</Name>
                 </NormalGUI>
@@ -1930,8 +1930,8 @@
                     <Height>10</Height>
                     <Locked>False</Locked>
                     <Width>40</Width>
-                    <Left>3</Left>
-                    <Top>0</Top>
+                    <Left>110</Left>
+                    <Top>6</Top>
                     <ZOrder>0</ZOrder>
                     <ID>0</ID>
                     <Name>btnNotes</Name>
@@ -1951,32 +1951,11 @@
                     <Height>10</Height>
                     <Locked>False</Locked>
                     <Width>40</Width>
-                    <Left>46</Left>
-                    <Top>0</Top>
+                    <Left>194</Left>
+                    <Top>6</Top>
                     <ZOrder>1</ZOrder>
                     <ID>1</ID>
                     <Name>btnItems</Name>
-                  </GUIButton>
-                  <GUIButton>
-                    <OnClick>MainGUIButtons_OnClick</OnClick>
-                    <ClickAction>RunScript</ClickAction>
-                    <NewModeNumber>0</NewModeNumber>
-                    <ClipImage>False</ClipImage>
-                    <TextAlignment>TopMiddle</TextAlignment>
-                    <TextColor>0</TextColor>
-                    <Font>0</Font>
-                    <PushedImage>386</PushedImage>
-                    <MouseoverImage>0</MouseoverImage>
-                    <Image>34</Image>
-                    <Text />
-                    <Height>10</Height>
-                    <Locked>False</Locked>
-                    <Width>40</Width>
-                    <Left>88</Left>
-                    <Top>0</Top>
-                    <ZOrder>2</ZOrder>
-                    <ID>2</ID>
-                    <Name>btnDialog</Name>
                   </GUIButton>
                   <GUIButton>
                     <OnClick>MainGUIButtons_OnClick</OnClick>
@@ -1993,10 +1972,10 @@
                     <Height>10</Height>
                     <Locked>False</Locked>
                     <Width>40</Width>
-                    <Left>131</Left>
-                    <Top>0</Top>
-                    <ZOrder>3</ZOrder>
-                    <ID>3</ID>
+                    <Left>152</Left>
+                    <Top>20</Top>
+                    <ZOrder>2</ZOrder>
+                    <ID>2</ID>
                     <Name>btnBlackBerry</Name>
                   </GUIButton>
                   <GUIButton>
@@ -2014,11 +1993,67 @@
                     <Height>10</Height>
                     <Locked>False</Locked>
                     <Width>40</Width>
-                    <Left>174</Left>
-                    <Top>0</Top>
+                    <Left>110</Left>
+                    <Top>20</Top>
+                    <ZOrder>3</ZOrder>
+                    <ID>3</ID>
+                    <Name>btnMap</Name>
+                  </GUIButton>
+                  <GUIButton>
+                    <OnClick />
+                    <ClickAction>RunScript</ClickAction>
+                    <NewModeNumber>0</NewModeNumber>
+                    <ClipImage>False</ClipImage>
+                    <TextAlignment>TopMiddle</TextAlignment>
+                    <TextColor>0</TextColor>
+                    <Font>0</Font>
+                    <PushedImage>0</PushedImage>
+                    <MouseoverImage>0</MouseoverImage>
+                    <Image>351</Image>
+                    <Text />
+                    <Height>25</Height>
+                    <Locked>False</Locked>
+                    <Width>30</Width>
+                    <Left>5</Left>
+                    <Top>6</Top>
                     <ZOrder>4</ZOrder>
                     <ID>4</ID>
-                    <Name>btnMap</Name>
+                    <Name>btnCalander_Main</Name>
+                  </GUIButton>
+                  <GUILabel>
+                    <TextAlignment>TopLeft</TextAlignment>
+                    <TextColor>0</TextColor>
+                    <Font>0</Font>
+                    <Text>Time</Text>
+                    <Height>20</Height>
+                    <Locked>False</Locked>
+                    <Width>65</Width>
+                    <Left>40</Left>
+                    <Top>6</Top>
+                    <ZOrder>5</ZOrder>
+                    <ID>5</ID>
+                    <Name>lblTime4</Name>
+                  </GUILabel>
+                  <GUIButton>
+                    <OnClick />
+                    <ClickAction>RunScript</ClickAction>
+                    <NewModeNumber>0</NewModeNumber>
+                    <ClipImage>False</ClipImage>
+                    <TextAlignment>TopMiddle</TextAlignment>
+                    <TextColor>0</TextColor>
+                    <Font>0</Font>
+                    <PushedImage>658</PushedImage>
+                    <MouseoverImage>657</MouseoverImage>
+                    <Image>657</Image>
+                    <Text />
+                    <Height>10</Height>
+                    <Locked>False</Locked>
+                    <Width>40</Width>
+                    <Left>152</Left>
+                    <Top>6</Top>
+                    <ZOrder>6</ZOrder>
+                    <ID>6</ID>
+                    <Name>btnPOI_Short</Name>
                   </GUIButton>
                 </Controls>
               </GUIMain>
@@ -12221,7 +12256,7 @@ return
                       </Sprite>
                       <Sprite Slot="387" Width="40" Height="10" ColorDepth="32" Resolution="LowRes" AlphaChannel="False">
                         <Source>
-                          <FileName>D:\Bin\Projects\Mystery_Murder\Art\Workable Assets\GUI\Main\Clicked\main-items-clicked.png</FileName>
+                          <FileName>E:\GitHub Repositories\Murder\Art\Workable Assets\GUI\Main\Clicked\main-items-clicked.png</FileName>
                         </Source>
                       </Sprite>
                       <Sprite Slot="388" Width="40" Height="10" ColorDepth="32" Resolution="LowRes" AlphaChannel="False">
@@ -12259,6 +12294,11 @@ return
                           <FileName>E:\Adventure Game Studio\Murder\Art\Workable Assets\GUI\Main\Clicked\Cancel-clicked.png</FileName>
                         </Source>
                       </Sprite>
+                      <Sprite Slot="658" Width="40" Height="10" ColorDepth="32" Resolution="LowRes" AlphaChannel="False">
+                        <Source>
+                          <FileName>E:\GitHub Repositories\Murder\Art\Workable Assets\GUI\Main\Clicked\POI-clicked.png</FileName>
+                        </Source>
+                      </Sprite>
                     </Sprites>
                   </SpriteFolder>
                 </SubFolders>
@@ -12273,9 +12313,9 @@ return
                       <FileName>D:\Bin\Projects\Murder\Art\Workable Assets\GUI\Blackberry\main-dialog_v2.png</FileName>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="35" Width="40" Height="10" ColorDepth="32" Resolution="LowRes" AlphaChannel="True">
+                  <Sprite Slot="35" Width="40" Height="10" ColorDepth="32" Resolution="LowRes" AlphaChannel="False">
                     <Source>
-                      <FileName>C:\Users\pjmanley63316\Desktop\Murder\Art\Workable Assets\GUI\Main\main-items.png</FileName>
+                      <FileName>E:\GitHub Repositories\Murder\Art\Workable Assets\GUI\Main\main-items.png</FileName>
                     </Source>
                   </Sprite>
                   <Sprite Slot="36" Width="40" Height="10" ColorDepth="32" Resolution="LowRes" AlphaChannel="False">
@@ -12311,6 +12351,16 @@ return
                   <Sprite Slot="632" Width="40" Height="10" ColorDepth="32" Resolution="LowRes" AlphaChannel="False">
                     <Source>
                       <FileName>E:\Adventure Game Studio\Murder\Art\Workable Assets\GUI\Main\Cancel.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="656" Width="240" Height="35" ColorDepth="32" Resolution="LowRes" AlphaChannel="False">
+                    <Source>
+                      <FileName>E:\GitHub Repositories\Murder\Art\Workable Assets\GUI\Main\calander.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="657" Width="40" Height="10" ColorDepth="32" Resolution="LowRes" AlphaChannel="False">
+                    <Source>
+                      <FileName>E:\GitHub Repositories\Murder\Art\Workable Assets\GUI\Main\POI.png</FileName>
                     </Source>
                   </Sprite>
                 </Sprites>
