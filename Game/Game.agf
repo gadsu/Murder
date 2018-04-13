@@ -834,10 +834,10 @@
               <GUIMain>
                 <NormalGUI>
                   <OnClick>gBlackberry_OnClick</OnClick>
-                  <Height>200</Height>
-                  <Width>320</Width>
-                  <Left>0</Left>
-                  <Top>10</Top>
+                  <Height>184</Height>
+                  <Width>224</Width>
+                  <Left>48</Left>
+                  <Top>35</Top>
                   <Clickable>False</Clickable>
                   <Visibility>NormalButInitiallyOff</Visibility>
                   <PopupYPos>0</PopupYPos>
@@ -865,8 +865,8 @@
                     <Height>25</Height>
                     <Locked>False</Locked>
                     <Width>30</Width>
-                    <Left>95</Left>
-                    <Top>75</Top>
+                    <Left>44</Left>
+                    <Top>59</Top>
                     <ZOrder>0</ZOrder>
                     <ID>0</ID>
                     <Name>btnPOI</Name>
@@ -879,8 +879,8 @@
                     <Height>20</Height>
                     <Locked>False</Locked>
                     <Width>65</Width>
-                    <Left>171</Left>
-                    <Top>49</Top>
+                    <Left>120</Left>
+                    <Top>33</Top>
                     <ZOrder>1</ZOrder>
                     <ID>1</ID>
                     <Name>lblTime</Name>
@@ -900,8 +900,8 @@
                     <Height>25</Height>
                     <Locked>False</Locked>
                     <Width>30</Width>
-                    <Left>95</Left>
-                    <Top>113</Top>
+                    <Left>44</Left>
+                    <Top>97</Top>
                     <ZOrder>2</ZOrder>
                     <ID>2</ID>
                     <Name>btnCalendar</Name>
@@ -921,8 +921,8 @@
                     <Height>25</Height>
                     <Locked>False</Locked>
                     <Width>30</Width>
-                    <Left>146</Left>
-                    <Top>75</Top>
+                    <Left>95</Left>
+                    <Top>59</Top>
                     <ZOrder>3</ZOrder>
                     <ID>3</ID>
                     <Name>btnJournal</Name>
@@ -942,8 +942,8 @@
                     <Height>25</Height>
                     <Locked>False</Locked>
                     <Width>30</Width>
-                    <Left>196</Left>
-                    <Top>75</Top>
+                    <Left>145</Left>
+                    <Top>59</Top>
                     <ZOrder>4</ZOrder>
                     <ID>4</ID>
                     <Name>btnPictures</Name>
@@ -963,8 +963,8 @@
                     <Height>25</Height>
                     <Locked>False</Locked>
                     <Width>30</Width>
-                    <Left>146</Left>
-                    <Top>113</Top>
+                    <Left>95</Left>
+                    <Top>97</Top>
                     <ZOrder>5</ZOrder>
                     <ID>5</ID>
                     <Name>btnOpt</Name>
@@ -973,11 +973,11 @@
               </GUIMain>
               <GUIMain>
                 <NormalGUI>
-                  <OnClick />
-                  <Height>190</Height>
-                  <Width>320</Width>
-                  <Left>0</Left>
-                  <Top>10</Top>
+                  <OnClick>gBlackberry_Options</OnClick>
+                  <Height>184</Height>
+                  <Width>224</Width>
+                  <Left>48</Left>
+                  <Top>35</Top>
                   <Clickable>False</Clickable>
                   <Visibility>NormalButInitiallyOff</Visibility>
                   <PopupYPos>0</PopupYPos>
@@ -998,8 +998,8 @@
                     <Height>20</Height>
                     <Locked>False</Locked>
                     <Width>65</Width>
-                    <Left>171</Left>
-                    <Top>49</Top>
+                    <Left>124</Left>
+                    <Top>33</Top>
                     <ZOrder>0</ZOrder>
                     <ID>0</ID>
                     <Name>lblTime2</Name>
@@ -1019,8 +1019,8 @@
                     <Height>25</Height>
                     <Locked>False</Locked>
                     <Width>30</Width>
-                    <Left>145</Left>
-                    <Top>73</Top>
+                    <Left>98</Left>
+                    <Top>57</Top>
                     <ZOrder>1</ZOrder>
                     <ID>1</ID>
                     <Name>btnAudio</Name>
@@ -1040,8 +1040,8 @@
                     <Height>25</Height>
                     <Locked>False</Locked>
                     <Width>30</Width>
-                    <Left>96</Left>
-                    <Top>112</Top>
+                    <Left>49</Left>
+                    <Top>96</Top>
                     <ZOrder>2</ZOrder>
                     <ID>2</ID>
                     <Name>btnSave</Name>
@@ -1061,8 +1061,8 @@
                     <Height>25</Height>
                     <Locked>False</Locked>
                     <Width>30</Width>
-                    <Left>145</Left>
-                    <Top>112</Top>
+                    <Left>98</Left>
+                    <Top>96</Top>
                     <ZOrder>3</ZOrder>
                     <ID>3</ID>
                     <Name>btnLoad</Name>
@@ -1082,8 +1082,8 @@
                     <Height>25</Height>
                     <Locked>False</Locked>
                     <Width>30</Width>
-                    <Left>189</Left>
-                    <Top>73</Top>
+                    <Left>142</Left>
+                    <Top>57</Top>
                     <ZOrder>4</ZOrder>
                     <ID>4</ID>
                     <Name>btnRestart</Name>
@@ -1103,8 +1103,8 @@
                     <Height>25</Height>
                     <Locked>False</Locked>
                     <Width>30</Width>
-                    <Left>189</Left>
-                    <Top>112</Top>
+                    <Left>142</Left>
+                    <Top>96</Top>
                     <ZOrder>5</ZOrder>
                     <ID>5</ID>
                     <Name>btnExit</Name>
@@ -1124,8 +1124,8 @@
                     <Height>25</Height>
                     <Locked>False</Locked>
                     <Width>30</Width>
-                    <Left>96</Left>
-                    <Top>73</Top>
+                    <Left>49</Left>
+                    <Top>57</Top>
                     <ZOrder>6</ZOrder>
                     <ID>6</ID>
                     <Name>btnBack</Name>
@@ -1135,10 +1135,10 @@
               <GUIMain>
                 <NormalGUI>
                   <OnClick />
-                  <Height>190</Height>
-                  <Width>320</Width>
-                  <Left>0</Left>
-                  <Top>10</Top>
+                  <Height>184</Height>
+                  <Width>224</Width>
+                  <Left>48</Left>
+                  <Top>35</Top>
                   <Clickable>False</Clickable>
                   <Visibility>NormalButInitiallyOff</Visibility>
                   <PopupYPos>0</PopupYPos>
@@ -1164,8 +1164,8 @@
                     <Height>71</Height>
                     <Locked>False</Locked>
                     <Width>59</Width>
-                    <Left>85</Left>
-                    <Top>71</Top>
+                    <Left>37</Left>
+                    <Top>55</Top>
                     <ZOrder>0</ZOrder>
                     <ID>0</ID>
                     <Name>lstPOI</Name>
@@ -1185,8 +1185,8 @@
                     <Height>29</Height>
                     <Locked>False</Locked>
                     <Width>34</Width>
-                    <Left>203</Left>
-                    <Top>71</Top>
+                    <Left>155</Left>
+                    <Top>55</Top>
                     <ZOrder>1</ZOrder>
                     <ID>1</ID>
                     <Name>btnCharacterImagePOI</Name>
@@ -1199,8 +1199,8 @@
                     <Height>20</Height>
                     <Locked>False</Locked>
                     <Width>65</Width>
-                    <Left>171</Left>
-                    <Top>49</Top>
+                    <Left>123</Left>
+                    <Top>33</Top>
                     <ZOrder>2</ZOrder>
                     <ID>2</ID>
                     <Name>lblTime3</Name>
@@ -1213,8 +1213,8 @@
                     <Height>33</Height>
                     <Locked>False</Locked>
                     <Width>50</Width>
-                    <Left>149</Left>
-                    <Top>71</Top>
+                    <Left>101</Left>
+                    <Top>55</Top>
                     <ZOrder>3</ZOrder>
                     <ID>3</ID>
                     <Name>lblPOI_Character</Name>
@@ -1227,8 +1227,8 @@
                     <Height>67</Height>
                     <Locked>False</Locked>
                     <Width>90</Width>
-                    <Left>149</Left>
-                    <Top>103</Top>
+                    <Left>101</Left>
+                    <Top>87</Top>
                     <ZOrder>4</ZOrder>
                     <ID>4</ID>
                     <Name>lblPOI</Name>
@@ -1248,8 +1248,8 @@
                     <Height>25</Height>
                     <Locked>False</Locked>
                     <Width>30</Width>
-                    <Left>85</Left>
-                    <Top>145</Top>
+                    <Left>37</Left>
+                    <Top>129</Top>
                     <ZOrder>5</ZOrder>
                     <ID>5</ID>
                     <Name>btnPOI_Close</Name>
@@ -1259,10 +1259,10 @@
               <GUIMain>
                 <NormalGUI>
                   <OnClick />
-                  <Height>200</Height>
-                  <Width>320</Width>
-                  <Left>0</Left>
-                  <Top>10</Top>
+                  <Height>184</Height>
+                  <Width>224</Width>
+                  <Left>48</Left>
+                  <Top>35</Top>
                   <Clickable>False</Clickable>
                   <Visibility>NormalButInitiallyOff</Visibility>
                   <PopupYPos>0</PopupYPos>
@@ -1304,8 +1304,8 @@
                     <Height>25</Height>
                     <Locked>False</Locked>
                     <Width>30</Width>
-                    <Left>95</Left>
-                    <Top>70</Top>
+                    <Left>39</Left>
+                    <Top>54</Top>
                     <ZOrder>1</ZOrder>
                     <ID>1</ID>
                     <Name>btnNotes_Close</Name>
@@ -1319,8 +1319,8 @@
                     <Height>15</Height>
                     <Locked>False</Locked>
                     <Width>105</Width>
-                    <Left>131</Left>
-                    <Top>156</Top>
+                    <Left>75</Left>
+                    <Top>140</Top>
                     <ZOrder>2</ZOrder>
                     <ID>2</ID>
                     <Name>txtNotes</Name>
@@ -1333,8 +1333,8 @@
                     <Height>82</Height>
                     <Locked>False</Locked>
                     <Width>105</Width>
-                    <Left>131</Left>
-                    <Top>70</Top>
+                    <Left>75</Left>
+                    <Top>54</Top>
                     <ZOrder>3</ZOrder>
                     <ID>3</ID>
                     <Name>lblNotes</Name>
@@ -1344,10 +1344,10 @@
               <GUIMain>
                 <NormalGUI>
                   <OnClick>gSave2_OnClick</OnClick>
-                  <Height>200</Height>
-                  <Width>300</Width>
-                  <Left>0</Left>
-                  <Top>10</Top>
+                  <Height>184</Height>
+                  <Width>224</Width>
+                  <Left>48</Left>
+                  <Top>35</Top>
                   <Clickable>False</Clickable>
                   <Visibility>NormalButInitiallyOff</Visibility>
                   <PopupYPos>0</PopupYPos>
@@ -1375,8 +1375,8 @@
                     <Height>10</Height>
                     <Locked>False</Locked>
                     <Width>40</Width>
-                    <Left>185</Left>
-                    <Top>92</Top>
+                    <Left>145</Left>
+                    <Top>77</Top>
                     <ZOrder>0</ZOrder>
                     <ID>0</ID>
                     <Name>btnSave2</Name>
@@ -1396,8 +1396,8 @@
                     <Height>10</Height>
                     <Locked>False</Locked>
                     <Width>40</Width>
-                    <Left>185</Left>
-                    <Top>115</Top>
+                    <Left>145</Left>
+                    <Top>100</Top>
                     <ZOrder>1</ZOrder>
                     <ID>1</ID>
                     <Name>btnCancelSave</Name>
@@ -1415,8 +1415,8 @@
                     <Height>72</Height>
                     <Locked>False</Locked>
                     <Width>99</Width>
-                    <Left>82</Left>
-                    <Top>69</Top>
+                    <Left>42</Left>
+                    <Top>54</Top>
                     <ZOrder>2</ZOrder>
                     <ID>2</ID>
                     <Name>lstSave</Name>
@@ -1430,8 +1430,8 @@
                     <Height>24</Height>
                     <Locked>False</Locked>
                     <Width>99</Width>
-                    <Left>82</Left>
-                    <Top>148</Top>
+                    <Left>42</Left>
+                    <Top>133</Top>
                     <ZOrder>3</ZOrder>
                     <ID>3</ID>
                     <Name>txtSaveInput</Name>
@@ -1441,10 +1441,10 @@
               <GUIMain>
                 <NormalGUI>
                   <OnClick />
-                  <Height>200</Height>
-                  <Width>320</Width>
-                  <Left>0</Left>
-                  <Top>10</Top>
+                  <Height>184</Height>
+                  <Width>224</Width>
+                  <Left>48</Left>
+                  <Top>35</Top>
                   <Clickable>False</Clickable>
                   <Visibility>NormalButInitiallyOff</Visibility>
                   <PopupYPos>0</PopupYPos>
@@ -1470,8 +1470,8 @@
                     <Height>82</Height>
                     <Locked>False</Locked>
                     <Width>88</Width>
-                    <Left>85</Left>
-                    <Top>71</Top>
+                    <Left>46</Left>
+                    <Top>58</Top>
                     <ZOrder>0</ZOrder>
                     <ID>0</ID>
                     <Name>lstLoad</Name>
@@ -1491,8 +1491,8 @@
                     <Height>10</Height>
                     <Locked>False</Locked>
                     <Width>40</Width>
-                    <Left>178</Left>
-                    <Top>81</Top>
+                    <Left>139</Left>
+                    <Top>68</Top>
                     <ZOrder>1</ZOrder>
                     <ID>1</ID>
                     <Name>btnLoad2</Name>
@@ -1512,8 +1512,8 @@
                     <Height>10</Height>
                     <Locked>False</Locked>
                     <Width>40</Width>
-                    <Left>178</Left>
-                    <Top>129</Top>
+                    <Left>139</Left>
+                    <Top>116</Top>
                     <ZOrder>2</ZOrder>
                     <ID>2</ID>
                     <Name>btnCancelLoad</Name>
@@ -1533,8 +1533,8 @@
                     <Height>10</Height>
                     <Locked>False</Locked>
                     <Width>40</Width>
-                    <Left>178</Left>
-                    <Top>103</Top>
+                    <Left>139</Left>
+                    <Top>90</Top>
                     <ZOrder>3</ZOrder>
                     <ID>3</ID>
                     <Name>btnDelete</Name>
@@ -1931,7 +1931,7 @@
                     <Locked>False</Locked>
                     <Width>40</Width>
                     <Left>110</Left>
-                    <Top>6</Top>
+                    <Top>4</Top>
                     <ZOrder>0</ZOrder>
                     <ID>0</ID>
                     <Name>btnNotes</Name>
@@ -1951,8 +1951,8 @@
                     <Height>10</Height>
                     <Locked>False</Locked>
                     <Width>40</Width>
-                    <Left>194</Left>
-                    <Top>6</Top>
+                    <Left>198</Left>
+                    <Top>4</Top>
                     <ZOrder>1</ZOrder>
                     <ID>1</ID>
                     <Name>btnItems</Name>
@@ -1966,14 +1966,14 @@
                     <TextColor>0</TextColor>
                     <Font>0</Font>
                     <PushedImage>388</PushedImage>
-                    <MouseoverImage>0</MouseoverImage>
+                    <MouseoverImage>37</MouseoverImage>
                     <Image>37</Image>
                     <Text />
                     <Height>10</Height>
                     <Locked>False</Locked>
                     <Width>40</Width>
-                    <Left>152</Left>
-                    <Top>20</Top>
+                    <Left>155</Left>
+                    <Top>18</Top>
                     <ZOrder>2</ZOrder>
                     <ID>2</ID>
                     <Name>btnBlackBerry</Name>
@@ -1994,7 +1994,7 @@
                     <Locked>False</Locked>
                     <Width>40</Width>
                     <Left>110</Left>
-                    <Top>20</Top>
+                    <Top>18</Top>
                     <ZOrder>3</ZOrder>
                     <ID>3</ID>
                     <Name>btnMap</Name>
@@ -2015,7 +2015,7 @@
                     <Locked>False</Locked>
                     <Width>30</Width>
                     <Left>5</Left>
-                    <Top>6</Top>
+                    <Top>3</Top>
                     <ZOrder>4</ZOrder>
                     <ID>4</ID>
                     <Name>btnCalander_Main</Name>
@@ -2028,14 +2028,14 @@
                     <Height>20</Height>
                     <Locked>False</Locked>
                     <Width>65</Width>
-                    <Left>40</Left>
-                    <Top>6</Top>
+                    <Left>39</Left>
+                    <Top>4</Top>
                     <ZOrder>5</ZOrder>
                     <ID>5</ID>
                     <Name>lblTime4</Name>
                   </GUILabel>
                   <GUIButton>
-                    <OnClick />
+                    <OnClick>MainGUIButtons_OnClick</OnClick>
                     <ClickAction>RunScript</ClickAction>
                     <NewModeNumber>0</NewModeNumber>
                     <ClipImage>False</ClipImage>
@@ -2049,8 +2049,8 @@
                     <Height>10</Height>
                     <Locked>False</Locked>
                     <Width>40</Width>
-                    <Left>152</Left>
-                    <Top>6</Top>
+                    <Left>155</Left>
+                    <Top>4</Top>
                     <ZOrder>6</ZOrder>
                     <ID>6</ID>
                     <Name>btnPOI_Short</Name>
@@ -2063,7 +2063,7 @@
                   <Height>170</Height>
                   <Width>210</Width>
                   <Left>52</Left>
-                  <Top>20</Top>
+                  <Top>35</Top>
                   <Clickable>False</Clickable>
                   <Visibility>NormalButInitiallyOff</Visibility>
                   <PopupYPos>0</PopupYPos>
@@ -11981,9 +11981,9 @@ return
                   </SpriteFolder>
                 </SubFolders>
                 <Sprites>
-                  <Sprite Slot="330" Width="320" Height="200" ColorDepth="32" Resolution="LowRes" AlphaChannel="False">
+                  <Sprite Slot="330" Width="224" Height="184" ColorDepth="32" Resolution="LowRes" AlphaChannel="False">
                     <Source>
-                      <FileName>D:\Bin\Projects\Murder\Art\Workable Assets\GUI\Blackberry\Blackberry_Base_v2.png</FileName>
+                      <FileName>E:\GitHub Repositories\Murder\Art\Workable Assets\GUI\Blackberry\Blackberry_Base_v3.png</FileName>
                     </Source>
                   </Sprite>
                   <Sprite Slot="331" Width="30" Height="25" ColorDepth="32" Resolution="LowRes" AlphaChannel="False">
