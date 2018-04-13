@@ -1930,32 +1930,11 @@
                     <Height>10</Height>
                     <Locked>False</Locked>
                     <Width>40</Width>
-                    <Left>110</Left>
+                    <Left>124</Left>
                     <Top>4</Top>
                     <ZOrder>0</ZOrder>
                     <ID>0</ID>
                     <Name>btnNotes</Name>
-                  </GUIButton>
-                  <GUIButton>
-                    <OnClick>MainGUIButtons_OnClick</OnClick>
-                    <ClickAction>RunScript</ClickAction>
-                    <NewModeNumber>0</NewModeNumber>
-                    <ClipImage>True</ClipImage>
-                    <TextAlignment>TopMiddle</TextAlignment>
-                    <TextColor>0</TextColor>
-                    <Font>0</Font>
-                    <PushedImage>387</PushedImage>
-                    <MouseoverImage>0</MouseoverImage>
-                    <Image>35</Image>
-                    <Text />
-                    <Height>10</Height>
-                    <Locked>False</Locked>
-                    <Width>40</Width>
-                    <Left>198</Left>
-                    <Top>4</Top>
-                    <ZOrder>1</ZOrder>
-                    <ID>1</ID>
-                    <Name>btnItems</Name>
                   </GUIButton>
                   <GUIButton>
                     <OnClick>MainGUIButtons_OnClick</OnClick>
@@ -1972,10 +1951,10 @@
                     <Height>10</Height>
                     <Locked>False</Locked>
                     <Width>40</Width>
-                    <Left>155</Left>
+                    <Left>184</Left>
                     <Top>18</Top>
-                    <ZOrder>2</ZOrder>
-                    <ID>2</ID>
+                    <ZOrder>1</ZOrder>
+                    <ID>1</ID>
                     <Name>btnBlackBerry</Name>
                   </GUIButton>
                   <GUIButton>
@@ -1993,10 +1972,10 @@
                     <Height>10</Height>
                     <Locked>False</Locked>
                     <Width>40</Width>
-                    <Left>110</Left>
+                    <Left>124</Left>
                     <Top>18</Top>
-                    <ZOrder>3</ZOrder>
-                    <ID>3</ID>
+                    <ZOrder>2</ZOrder>
+                    <ID>2</ID>
                     <Name>btnMap</Name>
                   </GUIButton>
                   <GUIButton>
@@ -2016,8 +1995,8 @@
                     <Width>30</Width>
                     <Left>5</Left>
                     <Top>3</Top>
-                    <ZOrder>4</ZOrder>
-                    <ID>4</ID>
+                    <ZOrder>3</ZOrder>
+                    <ID>3</ID>
                     <Name>btnCalander_Main</Name>
                   </GUIButton>
                   <GUILabel>
@@ -2030,8 +2009,8 @@
                     <Width>65</Width>
                     <Left>39</Left>
                     <Top>4</Top>
-                    <ZOrder>5</ZOrder>
-                    <ID>5</ID>
+                    <ZOrder>4</ZOrder>
+                    <ID>4</ID>
                     <Name>lblTime4</Name>
                   </GUILabel>
                   <GUIButton>
@@ -2049,10 +2028,10 @@
                     <Height>10</Height>
                     <Locked>False</Locked>
                     <Width>40</Width>
-                    <Left>155</Left>
+                    <Left>184</Left>
                     <Top>4</Top>
-                    <ZOrder>6</ZOrder>
-                    <ID>6</ID>
+                    <ZOrder>5</ZOrder>
+                    <ID>5</ID>
                     <Name>btnPOI_Short</Name>
                   </GUIButton>
                 </Controls>
