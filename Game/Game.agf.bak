@@ -3598,6 +3598,24 @@
               <Event Index="4" />
             </Interactions>
           </InventoryItem>
+          <InventoryItem>
+            <ID>6</ID>
+            <HotspotX>0</HotspotX>
+            <HotspotY>0</HotspotY>
+            <PlayerStartsWithItem>False</PlayerStartsWithItem>
+            <CursorImage>0</CursorImage>
+            <Image>0</Image>
+            <Description>Book</Description>
+            <Name>iBook</Name>
+            <Properties />
+            <Interactions>
+              <Event Index="0" />
+              <Event Index="1" />
+              <Event Index="2" />
+              <Event Index="3" />
+              <Event Index="4" />
+            </Interactions>
+          </InventoryItem>
         </InventoryItems>
       </InventoryItemFolder>
     </InventoryItems>
@@ -7553,6 +7571,449 @@ return
                 </SubFolders>
                 <Dialogs />
               </DialogFolder>
+              <DialogFolder Name="Rachel Lee">
+                <SubFolders>
+                  <DialogFolder Name="Morning">
+                    <SubFolders />
+                    <Dialogs>
+                      <Dialog>
+                        <ID>163</ID>
+                        <Name>dRachelLMD1</Name>
+                        <ShowTextParser>False</ShowTextParser>
+                        <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+return
+]]></Script>
+                        <DialogOptions />
+                      </Dialog>
+                      <Dialog>
+                        <ID>164</ID>
+                        <Name>dRachelLMD2</Name>
+                        <ShowTextParser>False</ShowTextParser>
+                        <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+return
+]]></Script>
+                        <DialogOptions />
+                      </Dialog>
+                      <Dialog>
+                        <ID>165</ID>
+                        <Name>dRachelLMD3</Name>
+                        <ShowTextParser>False</ShowTextParser>
+                        <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+return
+]]></Script>
+                        <DialogOptions />
+                      </Dialog>
+                      <Dialog>
+                        <ID>166</ID>
+                        <Name>dRachelLMD4</Name>
+                        <ShowTextParser>False</ShowTextParser>
+                        <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+return
+]]></Script>
+                        <DialogOptions />
+                      </Dialog>
+                    </Dialogs>
+                  </DialogFolder>
+                  <DialogFolder Name="Noon">
+                    <SubFolders />
+                    <Dialogs>
+                      <Dialog>
+                        <ID>160</ID>
+                        <Name>dRachelLNoD3</Name>
+                        <ShowTextParser>False</ShowTextParser>
+                        <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+return
+]]></Script>
+                        <DialogOptions />
+                      </Dialog>
+                      <Dialog>
+                        <ID>167</ID>
+                        <Name>dRachelLNoD1</Name>
+                        <ShowTextParser>False</ShowTextParser>
+                        <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+return
+]]></Script>
+                        <DialogOptions />
+                      </Dialog>
+                      <Dialog>
+                        <ID>168</ID>
+                        <Name>dRachelLNoD2</Name>
+                        <ShowTextParser>False</ShowTextParser>
+                        <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+return
+]]></Script>
+                        <DialogOptions />
+                      </Dialog>
+                      <Dialog>
+                        <ID>169</ID>
+                        <Name>dRachelLNoD4</Name>
+                        <ShowTextParser>False</ShowTextParser>
+                        <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+return
+]]></Script>
+                        <DialogOptions />
+                      </Dialog>
+                    </Dialogs>
+                  </DialogFolder>
+                  <DialogFolder Name="Evening">
+                    <SubFolders />
+                    <Dialogs>
+                      <Dialog>
+                        <ID>170</ID>
+                        <Name>dRachelLED1</Name>
+                        <ShowTextParser>False</ShowTextParser>
+                        <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+return
+]]></Script>
+                        <DialogOptions />
+                      </Dialog>
+                      <Dialog>
+                        <ID>171</ID>
+                        <Name>dRachelLED2</Name>
+                        <ShowTextParser>False</ShowTextParser>
+                        <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+return
+]]></Script>
+                        <DialogOptions />
+                      </Dialog>
+                      <Dialog>
+                        <ID>172</ID>
+                        <Name>dRachelLED3</Name>
+                        <ShowTextParser>False</ShowTextParser>
+                        <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+return
+]]></Script>
+                        <DialogOptions />
+                      </Dialog>
+                      <Dialog>
+                        <ID>173</ID>
+                        <Name>dRachelLED4</Name>
+                        <ShowTextParser>False</ShowTextParser>
+                        <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+return
+]]></Script>
+                        <DialogOptions />
+                      </Dialog>
+                    </Dialogs>
+                  </DialogFolder>
+                  <DialogFolder Name="Night">
+                    <SubFolders />
+                    <Dialogs>
+                      <Dialog>
+                        <ID>161</ID>
+                        <Name>dRachelLNiD3</Name>
+                        <ShowTextParser>False</ShowTextParser>
+                        <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+cJimmy: Hello, Rachel?
+cRachelL: Yes. How can I help you?
+return
+@1
+cJimmy: Blah.
+cRachelL: Bleh.
+option-on 2
+option-off 1
+return
+@2
+return
+@3
+return
+@4
+stop
+]]></Script>
+                        <DialogOptions>
+                          <DialogOption>
+                            <ID>1</ID>
+                            <Text xml:space="preserve">Where were you on Friday night?</Text>
+                            <Show>True</Show>
+                            <Say>True</Say>
+                          </DialogOption>
+                          <DialogOption>
+                            <ID>2</ID>
+                            <Text />
+                            <Show>False</Show>
+                            <Say>True</Say>
+                          </DialogOption>
+                          <DialogOption>
+                            <ID>3</ID>
+                            <Text />
+                            <Show>False</Show>
+                            <Say>True</Say>
+                          </DialogOption>
+                          <DialogOption>
+                            <ID>4</ID>
+                            <Text>Goodbye.</Text>
+                            <Show>True</Show>
+                            <Say>True</Say>
+                          </DialogOption>
+                        </DialogOptions>
+                      </Dialog>
+                      <Dialog>
+                        <ID>174</ID>
+                        <Name>dRachelLNiD1</Name>
+                        <ShowTextParser>False</ShowTextParser>
+                        <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+return
+]]></Script>
+                        <DialogOptions />
+                      </Dialog>
+                      <Dialog>
+                        <ID>175</ID>
+                        <Name>dRachelLNiD2</Name>
+                        <ShowTextParser>False</ShowTextParser>
+                        <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+return
+]]></Script>
+                        <DialogOptions />
+                      </Dialog>
+                      <Dialog>
+                        <ID>176</ID>
+                        <Name>dRachelLNiD4</Name>
+                        <ShowTextParser>False</ShowTextParser>
+                        <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+return
+]]></Script>
+                        <DialogOptions />
+                      </Dialog>
+                    </Dialogs>
+                  </DialogFolder>
+                </SubFolders>
+                <Dialogs />
+              </DialogFolder>
+              <DialogFolder Name="Katie Meyers">
+                <SubFolders>
+                  <DialogFolder Name="Morning">
+                    <SubFolders />
+                    <Dialogs>
+                      <Dialog>
+                        <ID>162</ID>
+                        <Name>dKatieMMD4</Name>
+                        <ShowTextParser>False</ShowTextParser>
+                        <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+return
+@1
+return
+@2
+return
+@3
+  player.AddInventory(iBook);
+return
+@4
+return
+]]></Script>
+                        <DialogOptions>
+                          <DialogOption>
+                            <ID>1</ID>
+                            <Text />
+                            <Show>True</Show>
+                            <Say>True</Say>
+                          </DialogOption>
+                          <DialogOption>
+                            <ID>2</ID>
+                            <Text />
+                            <Show>True</Show>
+                            <Say>True</Say>
+                          </DialogOption>
+                          <DialogOption>
+                            <ID>3</ID>
+                            <Text xml:space="preserve">Do you happen to have a book from the library?</Text>
+                            <Show>True</Show>
+                            <Say>True</Say>
+                          </DialogOption>
+                          <DialogOption>
+                            <ID>4</ID>
+                            <Text />
+                            <Show>True</Show>
+                            <Say>True</Say>
+                          </DialogOption>
+                        </DialogOptions>
+                      </Dialog>
+                      <Dialog>
+                        <ID>177</ID>
+                        <Name>dKatieMMD1</Name>
+                        <ShowTextParser>False</ShowTextParser>
+                        <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+return
+]]></Script>
+                        <DialogOptions />
+                      </Dialog>
+                      <Dialog>
+                        <ID>178</ID>
+                        <Name>dKatieMMD2</Name>
+                        <ShowTextParser>False</ShowTextParser>
+                        <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+return
+]]></Script>
+                        <DialogOptions />
+                      </Dialog>
+                      <Dialog>
+                        <ID>179</ID>
+                        <Name>dKatieMMD3</Name>
+                        <ShowTextParser>False</ShowTextParser>
+                        <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+return
+]]></Script>
+                        <DialogOptions />
+                      </Dialog>
+                    </Dialogs>
+                  </DialogFolder>
+                  <DialogFolder Name="Noon">
+                    <SubFolders />
+                    <Dialogs>
+                      <Dialog>
+                        <ID>180</ID>
+                        <Name>dKatieMNoD1</Name>
+                        <ShowTextParser>False</ShowTextParser>
+                        <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+return
+]]></Script>
+                        <DialogOptions />
+                      </Dialog>
+                      <Dialog>
+                        <ID>181</ID>
+                        <Name>dKatieMNoD2</Name>
+                        <ShowTextParser>False</ShowTextParser>
+                        <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+return
+]]></Script>
+                        <DialogOptions />
+                      </Dialog>
+                      <Dialog>
+                        <ID>182</ID>
+                        <Name>dKatieMNoD3</Name>
+                        <ShowTextParser>False</ShowTextParser>
+                        <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+return
+]]></Script>
+                        <DialogOptions />
+                      </Dialog>
+                      <Dialog>
+                        <ID>183</ID>
+                        <Name>dKatieMNoD4</Name>
+                        <ShowTextParser>False</ShowTextParser>
+                        <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+return
+]]></Script>
+                        <DialogOptions />
+                      </Dialog>
+                    </Dialogs>
+                  </DialogFolder>
+                  <DialogFolder Name="Evening">
+                    <SubFolders />
+                    <Dialogs>
+                      <Dialog>
+                        <ID>184</ID>
+                        <Name>dKatieMED1</Name>
+                        <ShowTextParser>False</ShowTextParser>
+                        <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+return
+]]></Script>
+                        <DialogOptions />
+                      </Dialog>
+                      <Dialog>
+                        <ID>185</ID>
+                        <Name>dKatieMED2</Name>
+                        <ShowTextParser>False</ShowTextParser>
+                        <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+return
+]]></Script>
+                        <DialogOptions />
+                      </Dialog>
+                      <Dialog>
+                        <ID>186</ID>
+                        <Name>dKatieMED3</Name>
+                        <ShowTextParser>False</ShowTextParser>
+                        <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+return
+]]></Script>
+                        <DialogOptions />
+                      </Dialog>
+                      <Dialog>
+                        <ID>187</ID>
+                        <Name>dKatieMED4</Name>
+                        <ShowTextParser>False</ShowTextParser>
+                        <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+return
+]]></Script>
+                        <DialogOptions />
+                      </Dialog>
+                    </Dialogs>
+                  </DialogFolder>
+                  <DialogFolder Name="Night">
+                    <SubFolders />
+                    <Dialogs>
+                      <Dialog>
+                        <ID>188</ID>
+                        <Name>dKatieMNiD1</Name>
+                        <ShowTextParser>False</ShowTextParser>
+                        <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+return
+]]></Script>
+                        <DialogOptions />
+                      </Dialog>
+                      <Dialog>
+                        <ID>189</ID>
+                        <Name>dKatieMNiD2</Name>
+                        <ShowTextParser>False</ShowTextParser>
+                        <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+return
+]]></Script>
+                        <DialogOptions />
+                      </Dialog>
+                      <Dialog>
+                        <ID>190</ID>
+                        <Name>dKatieMNiD3</Name>
+                        <ShowTextParser>False</ShowTextParser>
+                        <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+return
+]]></Script>
+                        <DialogOptions />
+                      </Dialog>
+                      <Dialog>
+                        <ID>191</ID>
+                        <Name>dKatieMNiD4</Name>
+                        <ShowTextParser>False</ShowTextParser>
+                        <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+return
+]]></Script>
+                        <DialogOptions />
+                      </Dialog>
+                    </Dialogs>
+                  </DialogFolder>
+                </SubFolders>
+                <Dialogs />
+              </DialogFolder>
             </SubFolders>
             <Dialogs />
           </DialogFolder>
@@ -8309,16 +8770,6 @@ Narrator: Jimmy revisits the crime scene one last time before calling it a night
 Narrator: Only to wake up three days earlier, stuck in a time loop.
 Narrator: Please look forward to the full release of the game.
   QuitGame(0);
-]]></Script>
-            <DialogOptions />
-          </Dialog>
-          <Dialog>
-            <ID>160</ID>
-            <Name>dRachelLNoD3</Name>
-            <ShowTextParser>False</ShowTextParser>
-            <Script><![CDATA[// Dialog script file
-@S  // Dialog startup entry point
-return
 ]]></Script>
             <DialogOptions />
           </Dialog>
