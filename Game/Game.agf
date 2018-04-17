@@ -2062,8 +2062,8 @@
                   <OnClick />
                   <Height>170</Height>
                   <Width>210</Width>
-                  <Left>52</Left>
-                  <Top>20</Top>
+                  <Left>57</Left>
+                  <Top>35</Top>
                   <Clickable>False</Clickable>
                   <Visibility>NormalButInitiallyOff</Visibility>
                   <PopupYPos>0</PopupYPos>
@@ -16443,8 +16443,8 @@ return
                 <SubFolders />
                 <AudioClips>
                   <AudioClip>
-                    <SourceFileName xml:space="preserve">C:\Users\accurry\Desktop\murder\Sound Design\Music\SiD Songs\All My Exs Live In Texas.ogg</SourceFileName>
                     <ScriptName>aExsInTexas</ScriptName>
+                    <SourceFileName xml:space="preserve">C:\Users\accurry\Desktop\murder\Sound Design\Music\SiD Songs\All My Exs Live In Texas.ogg</SourceFileName>
                     <Index>104</Index>
                     <Type>2</Type>
                     <BundlingType>InSeparateVOX</BundlingType>
@@ -16452,7 +16452,7 @@ return
                     <DefaultVolume>-1</DefaultVolume>
                     <DefaultPriority>Inherit</DefaultPriority>
                     <DefaultRepeat>Inherit</DefaultRepeat>
-                    <FileLastModifiedDate>2018-02-15 15:31:31Z</FileLastModifiedDate>
+                    <FileLastModifiedDate>2018-04-12 19:30:55Z</FileLastModifiedDate>
                   </AudioClip>
                   <AudioClip>
                     <ScriptName>aTailfeather</ScriptName>
@@ -16464,7 +16464,7 @@ return
                     <DefaultVolume>-1</DefaultVolume>
                     <DefaultPriority>Inherit</DefaultPriority>
                     <DefaultRepeat>Inherit</DefaultRepeat>
-                    <FileLastModifiedDate>2018-02-15 15:31:31Z</FileLastModifiedDate>
+                    <FileLastModifiedDate>2018-04-12 19:30:55Z</FileLastModifiedDate>
                   </AudioClip>
                   <AudioClip>
                     <ScriptName>aWhenImGone</ScriptName>
@@ -16476,7 +16476,7 @@ return
                     <DefaultVolume>-1</DefaultVolume>
                     <DefaultPriority>Inherit</DefaultPriority>
                     <DefaultRepeat>Inherit</DefaultRepeat>
-                    <FileLastModifiedDate>2018-02-15 15:31:31Z</FileLastModifiedDate>
+                    <FileLastModifiedDate>2018-04-12 19:30:59Z</FileLastModifiedDate>
                   </AudioClip>
                   <AudioClip>
                     <ScriptName>aAchyBreakyHeart</ScriptName>
@@ -16488,7 +16488,7 @@ return
                     <DefaultVolume>-1</DefaultVolume>
                     <DefaultPriority>Inherit</DefaultPriority>
                     <DefaultRepeat>Inherit</DefaultRepeat>
-                    <FileLastModifiedDate>2018-02-15 15:31:31Z</FileLastModifiedDate>
+                    <FileLastModifiedDate>2018-04-12 19:30:55Z</FileLastModifiedDate>
                   </AudioClip>
                   <AudioClip>
                     <ScriptName>aBringMeToLife</ScriptName>
@@ -16500,7 +16500,7 @@ return
                     <DefaultVolume>-1</DefaultVolume>
                     <DefaultPriority>Inherit</DefaultPriority>
                     <DefaultRepeat>Inherit</DefaultRepeat>
-                    <FileLastModifiedDate>2018-02-15 15:31:31Z</FileLastModifiedDate>
+                    <FileLastModifiedDate>2018-04-12 19:30:55Z</FileLastModifiedDate>
                   </AudioClip>
                   <AudioClip>
                     <ScriptName>aBuddyHolly</ScriptName>
@@ -16512,7 +16512,7 @@ return
                     <DefaultVolume>-1</DefaultVolume>
                     <DefaultPriority>Inherit</DefaultPriority>
                     <DefaultRepeat>Inherit</DefaultRepeat>
-                    <FileLastModifiedDate>2018-02-15 15:31:31Z</FileLastModifiedDate>
+                    <FileLastModifiedDate>2018-04-12 19:30:56Z</FileLastModifiedDate>
                   </AudioClip>
                   <AudioClip>
                     <ScriptName>aConvoy</ScriptName>
@@ -16524,7 +16524,7 @@ return
                     <DefaultVolume>-1</DefaultVolume>
                     <DefaultPriority>Inherit</DefaultPriority>
                     <DefaultRepeat>Inherit</DefaultRepeat>
-                    <FileLastModifiedDate>2018-02-15 15:31:31Z</FileLastModifiedDate>
+                    <FileLastModifiedDate>2018-04-12 19:30:56Z</FileLastModifiedDate>
                   </AudioClip>
                   <AudioClip>
                     <ScriptName>aCottonEyedJoe</ScriptName>
@@ -16536,7 +16536,7 @@ return
                     <DefaultVolume>-1</DefaultVolume>
                     <DefaultPriority>Inherit</DefaultPriority>
                     <DefaultRepeat>Inherit</DefaultRepeat>
-                    <FileLastModifiedDate>2018-02-15 15:31:31Z</FileLastModifiedDate>
+                    <FileLastModifiedDate>2018-04-12 19:30:56Z</FileLastModifiedDate>
                   </AudioClip>
                   <AudioClip>
                     <ScriptName>aDevilWentDowntoGeorgia</ScriptName>
@@ -16548,7 +16548,7 @@ return
                     <DefaultVolume>-1</DefaultVolume>
                     <DefaultPriority>Inherit</DefaultPriority>
                     <DefaultRepeat>Inherit</DefaultRepeat>
-                    <FileLastModifiedDate>2018-02-15 15:31:31Z</FileLastModifiedDate>
+                    <FileLastModifiedDate>2018-04-12 19:30:56Z</FileLastModifiedDate>
                   </AudioClip>
                   <AudioClip>
                     <ScriptName>aIShotTheSheriff</ScriptName>
@@ -16560,7 +16560,7 @@ return
                     <DefaultVolume>-1</DefaultVolume>
                     <DefaultPriority>Inherit</DefaultPriority>
                     <DefaultRepeat>Inherit</DefaultRepeat>
-                    <FileLastModifiedDate>2018-02-15 15:31:31Z</FileLastModifiedDate>
+                    <FileLastModifiedDate>2018-04-12 19:30:56Z</FileLastModifiedDate>
                   </AudioClip>
                   <AudioClip>
                     <ScriptName>aInTheEnd</ScriptName>
@@ -16572,7 +16572,7 @@ return
                     <DefaultVolume>-1</DefaultVolume>
                     <DefaultPriority>Inherit</DefaultPriority>
                     <DefaultRepeat>Inherit</DefaultRepeat>
-                    <FileLastModifiedDate>2018-02-15 15:31:31Z</FileLastModifiedDate>
+                    <FileLastModifiedDate>2018-04-12 19:30:56Z</FileLastModifiedDate>
                   </AudioClip>
                   <AudioClip>
                     <ScriptName>aGetBusy</ScriptName>
@@ -16584,7 +16584,7 @@ return
                     <DefaultVolume>-1</DefaultVolume>
                     <DefaultPriority>Inherit</DefaultPriority>
                     <DefaultRepeat>Inherit</DefaultRepeat>
-                    <FileLastModifiedDate>2018-02-15 15:31:31Z</FileLastModifiedDate>
+                    <FileLastModifiedDate>2018-04-12 19:30:59Z</FileLastModifiedDate>
                   </AudioClip>
                   <AudioClip>
                     <ScriptName>aLoseYourself</ScriptName>
@@ -16596,7 +16596,7 @@ return
                     <DefaultVolume>-1</DefaultVolume>
                     <DefaultPriority>Inherit</DefaultPriority>
                     <DefaultRepeat>Inherit</DefaultRepeat>
-                    <FileLastModifiedDate>2018-02-15 15:31:31Z</FileLastModifiedDate>
+                    <FileLastModifiedDate>2018-04-12 19:30:58Z</FileLastModifiedDate>
                   </AudioClip>
                   <AudioClip>
                     <ScriptName>aNumb</ScriptName>
@@ -16608,7 +16608,7 @@ return
                     <DefaultVolume>-1</DefaultVolume>
                     <DefaultPriority>Inherit</DefaultPriority>
                     <DefaultRepeat>Inherit</DefaultRepeat>
-                    <FileLastModifiedDate>2018-02-15 15:31:31Z</FileLastModifiedDate>
+                    <FileLastModifiedDate>2018-04-12 19:30:56Z</FileLastModifiedDate>
                   </AudioClip>
                   <AudioClip>
                     <ScriptName>aOneSteakSauce</ScriptName>
@@ -16620,7 +16620,7 @@ return
                     <DefaultVolume>-1</DefaultVolume>
                     <DefaultPriority>Inherit</DefaultPriority>
                     <DefaultRepeat>Inherit</DefaultRepeat>
-                    <FileLastModifiedDate>2018-02-15 15:31:31Z</FileLastModifiedDate>
+                    <FileLastModifiedDate>2018-04-12 19:30:58Z</FileLastModifiedDate>
                   </AudioClip>
                   <AudioClip>
                     <ScriptName>aMyWay</ScriptName>
@@ -16632,7 +16632,7 @@ return
                     <DefaultVolume>-1</DefaultVolume>
                     <DefaultPriority>Inherit</DefaultPriority>
                     <DefaultRepeat>Inherit</DefaultRepeat>
-                    <FileLastModifiedDate>2018-02-15 15:31:31Z</FileLastModifiedDate>
+                    <FileLastModifiedDate>2018-04-12 19:30:58Z</FileLastModifiedDate>
                   </AudioClip>
                   <AudioClip>
                     <ScriptName>aRingOfFire</ScriptName>
@@ -16644,7 +16644,7 @@ return
                     <DefaultVolume>-1</DefaultVolume>
                     <DefaultPriority>Inherit</DefaultPriority>
                     <DefaultRepeat>Inherit</DefaultRepeat>
-                    <FileLastModifiedDate>2018-02-15 15:31:31Z</FileLastModifiedDate>
+                    <FileLastModifiedDate>2018-04-12 19:30:58Z</FileLastModifiedDate>
                   </AudioClip>
                   <AudioClip>
                     <ScriptName>aSmellsLikeTeenSpirit</ScriptName>
@@ -16656,7 +16656,7 @@ return
                     <DefaultVolume>-1</DefaultVolume>
                     <DefaultPriority>Inherit</DefaultPriority>
                     <DefaultRepeat>Inherit</DefaultRepeat>
-                    <FileLastModifiedDate>2018-02-15 15:31:31Z</FileLastModifiedDate>
+                    <FileLastModifiedDate>2018-04-12 19:30:58Z</FileLastModifiedDate>
                   </AudioClip>
                 </AudioClips>
                 <AudioClipFolder>
@@ -16680,7 +16680,7 @@ return
                     <DefaultVolume>-1</DefaultVolume>
                     <DefaultPriority>Inherit</DefaultPriority>
                     <DefaultRepeat>Inherit</DefaultRepeat>
-                    <FileLastModifiedDate>2018-01-31 23:35:46Z</FileLastModifiedDate>
+                    <FileLastModifiedDate>2018-04-12 19:30:55Z</FileLastModifiedDate>
                   </AudioClip>
                   <AudioClip>
                     <ScriptName>aGeneralTheme</ScriptName>
@@ -16692,7 +16692,7 @@ return
                     <DefaultVolume>-1</DefaultVolume>
                     <DefaultPriority>Inherit</DefaultPriority>
                     <DefaultRepeat>Inherit</DefaultRepeat>
-                    <FileLastModifiedDate>2018-02-16 02:04:48Z</FileLastModifiedDate>
+                    <FileLastModifiedDate>2018-04-12 19:30:59Z</FileLastModifiedDate>
                   </AudioClip>
                   <AudioClip>
                     <ScriptName>aGeraldsHouse</ScriptName>
@@ -16704,7 +16704,7 @@ return
                     <DefaultVolume>-1</DefaultVolume>
                     <DefaultPriority>Inherit</DefaultPriority>
                     <DefaultRepeat>Inherit</DefaultRepeat>
-                    <FileLastModifiedDate>2018-02-16 02:04:48Z</FileLastModifiedDate>
+                    <FileLastModifiedDate>2018-04-12 19:30:59Z</FileLastModifiedDate>
                   </AudioClip>
                   <AudioClip>
                     <ScriptName>aMarysHouse</ScriptName>
@@ -16716,7 +16716,7 @@ return
                     <DefaultVolume>-1</DefaultVolume>
                     <DefaultPriority>Inherit</DefaultPriority>
                     <DefaultRepeat>Inherit</DefaultRepeat>
-                    <FileLastModifiedDate>2018-02-16 02:04:48Z</FileLastModifiedDate>
+                    <FileLastModifiedDate>2018-04-12 19:30:59Z</FileLastModifiedDate>
                   </AudioClip>
                   <AudioClip>
                     <ScriptName>aWalkingOutside</ScriptName>
@@ -16728,7 +16728,7 @@ return
                     <DefaultVolume>-1</DefaultVolume>
                     <DefaultPriority>Inherit</DefaultPriority>
                     <DefaultRepeat>Inherit</DefaultRepeat>
-                    <FileLastModifiedDate>2018-02-16 02:04:48Z</FileLastModifiedDate>
+                    <FileLastModifiedDate>2018-04-12 19:30:59Z</FileLastModifiedDate>
                   </AudioClip>
                 </AudioClips>
                 <AudioClipFolder>
@@ -16773,8 +16773,8 @@ return
     </AudioClips>
     <AudioClipTypes>
       <AudioClipType>
-        <TypeID>1</TypeID>
         <Name xml:space="preserve">Ambient Sound</Name>
+        <TypeID>1</TypeID>
         <MaxChannels>1</MaxChannels>
         <VolumeReductionWhileSpeechPlaying>0</VolumeReductionWhileSpeechPlaying>
         <CrossfadeClips>No</CrossfadeClips>
