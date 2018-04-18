@@ -16422,8 +16422,8 @@ return
                 <SubFolders />
                 <AudioClips>
                   <AudioClip>
-                    <SourceFileName xml:space="preserve">C:\Users\accurry\Desktop\murder\Sound Design\Music\SiD Songs\All My Exs Live In Texas.ogg</SourceFileName>
                     <ScriptName>aExsInTexas</ScriptName>
+                    <SourceFileName xml:space="preserve">C:\Users\accurry\Desktop\murder\Sound Design\Music\SiD Songs\All My Exs Live In Texas.ogg</SourceFileName>
                     <Index>104</Index>
                     <Type>2</Type>
                     <BundlingType>InSeparateVOX</BundlingType>
@@ -16752,8 +16752,8 @@ return
     </AudioClips>
     <AudioClipTypes>
       <AudioClipType>
-        <TypeID>1</TypeID>
         <Name xml:space="preserve">Ambient Sound</Name>
+        <TypeID>1</TypeID>
         <MaxChannels>1</MaxChannels>
         <VolumeReductionWhileSpeechPlaying>0</VolumeReductionWhileSpeechPlaying>
         <CrossfadeClips>No</CrossfadeClips>
