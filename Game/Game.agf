@@ -7031,13 +7031,60 @@ stop
           <DialogFolder Name="Other">
             <SubFolders>
               <DialogFolder Name="Oliver">
-                <SubFolders />
-                <Dialogs>
-                  <Dialog>
-                    <ID>3</ID>
-                    <Name>dOliverFNoD2</Name>
-                    <ShowTextParser>False</ShowTextParser>
-                    <Script><![CDATA[// Dialog script file
+                <SubFolders>
+                  <DialogFolder Name="Morning">
+                    <SubFolders />
+                    <Dialogs>
+                      <Dialog>
+                        <ID>161</ID>
+                        <Name>dOliverFMD1</Name>
+                        <ShowTextParser>False</ShowTextParser>
+                        <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+return
+]]></Script>
+                        <DialogOptions />
+                      </Dialog>
+                      <Dialog>
+                        <ID>162</ID>
+                        <Name>dOliverFMD2</Name>
+                        <ShowTextParser>False</ShowTextParser>
+                        <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+return
+]]></Script>
+                        <DialogOptions />
+                      </Dialog>
+                      <Dialog>
+                        <ID>163</ID>
+                        <Name>dOliverFMD3</Name>
+                        <ShowTextParser>False</ShowTextParser>
+                        <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+return
+]]></Script>
+                        <DialogOptions />
+                      </Dialog>
+                      <Dialog>
+                        <ID>164</ID>
+                        <Name>dOliverFMD4</Name>
+                        <ShowTextParser>False</ShowTextParser>
+                        <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+return
+]]></Script>
+                        <DialogOptions />
+                      </Dialog>
+                    </Dialogs>
+                  </DialogFolder>
+                  <DialogFolder Name="Noon">
+                    <SubFolders />
+                    <Dialogs>
+                      <Dialog>
+                        <ID>3</ID>
+                        <Name>dOliverFNoD2</Name>
+                        <ShowTextParser>False</ShowTextParser>
+                        <Script><![CDATA[// Dialog script file
 @S  // Dialog startup entry point
 cOliverFr: Jimmy, I didn’t know you were in town. What brings you back to Cosmos?
 cJimmy: Mary called me about the the death of Gerald. She wanted me to look into his death.
@@ -7069,28 +7116,151 @@ cOliverFr: Yeah, yeah, no problem.
 stop
 
 ]]></Script>
-                    <DialogOptions>
-                      <DialogOption>
-                        <ID>1</ID>
-                        <Text xml:space="preserve">Is it true that this is an accident?</Text>
-                        <Show>True</Show>
-                        <Say>True</Say>
-                      </DialogOption>
-                      <DialogOption>
-                        <ID>2</ID>
-                        <Text xml:space="preserve">Any people having disagreements with Gerald.</Text>
-                        <Show>True</Show>
-                        <Say>True</Say>
-                      </DialogOption>
-                      <DialogOption>
-                        <ID>3</ID>
-                        <Text xml:space="preserve">Thanks for the information.</Text>
-                        <Show>True</Show>
-                        <Say>True</Say>
-                      </DialogOption>
-                    </DialogOptions>
-                  </Dialog>
-                </Dialogs>
+                        <DialogOptions>
+                          <DialogOption>
+                            <ID>1</ID>
+                            <Text xml:space="preserve">Is it true that this is an accident?</Text>
+                            <Show>True</Show>
+                            <Say>True</Say>
+                          </DialogOption>
+                          <DialogOption>
+                            <ID>2</ID>
+                            <Text xml:space="preserve">Any people having disagreements with Gerald.</Text>
+                            <Show>True</Show>
+                            <Say>True</Say>
+                          </DialogOption>
+                          <DialogOption>
+                            <ID>3</ID>
+                            <Text xml:space="preserve">Thanks for the information.</Text>
+                            <Show>True</Show>
+                            <Say>True</Say>
+                          </DialogOption>
+                        </DialogOptions>
+                      </Dialog>
+                      <Dialog>
+                        <ID>165</ID>
+                        <Name>dOliverFNoD1</Name>
+                        <ShowTextParser>False</ShowTextParser>
+                        <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+return
+]]></Script>
+                        <DialogOptions />
+                      </Dialog>
+                      <Dialog>
+                        <ID>166</ID>
+                        <Name>dOliverFNoD3</Name>
+                        <ShowTextParser>False</ShowTextParser>
+                        <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+return
+]]></Script>
+                        <DialogOptions />
+                      </Dialog>
+                      <Dialog>
+                        <ID>167</ID>
+                        <Name>dOliverFNoD4</Name>
+                        <ShowTextParser>False</ShowTextParser>
+                        <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+return
+]]></Script>
+                        <DialogOptions />
+                      </Dialog>
+                    </Dialogs>
+                  </DialogFolder>
+                  <DialogFolder Name="Evening">
+                    <SubFolders />
+                    <Dialogs>
+                      <Dialog>
+                        <ID>174</ID>
+                        <Name>dOliverFED1</Name>
+                        <ShowTextParser>False</ShowTextParser>
+                        <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+return
+]]></Script>
+                        <DialogOptions />
+                      </Dialog>
+                      <Dialog>
+                        <ID>168</ID>
+                        <Name>dOliverFED2</Name>
+                        <ShowTextParser>False</ShowTextParser>
+                        <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+return
+]]></Script>
+                        <DialogOptions />
+                      </Dialog>
+                      <Dialog>
+                        <ID>169</ID>
+                        <Name>dOliverFED3</Name>
+                        <ShowTextParser>False</ShowTextParser>
+                        <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+return
+]]></Script>
+                        <DialogOptions />
+                      </Dialog>
+                      <Dialog>
+                        <ID>170</ID>
+                        <Name>dOliverFED4</Name>
+                        <ShowTextParser>False</ShowTextParser>
+                        <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+return
+]]></Script>
+                        <DialogOptions />
+                      </Dialog>
+                    </Dialogs>
+                  </DialogFolder>
+                  <DialogFolder Name="Night">
+                    <SubFolders />
+                    <Dialogs>
+                      <Dialog>
+                        <ID>171</ID>
+                        <Name>dOliverFNiD1</Name>
+                        <ShowTextParser>False</ShowTextParser>
+                        <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+return
+]]></Script>
+                        <DialogOptions />
+                      </Dialog>
+                      <Dialog>
+                        <ID>172</ID>
+                        <Name>dOliverFNiD2</Name>
+                        <ShowTextParser>False</ShowTextParser>
+                        <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+return
+]]></Script>
+                        <DialogOptions />
+                      </Dialog>
+                      <Dialog>
+                        <ID>173</ID>
+                        <Name>dOliverFNiD3</Name>
+                        <ShowTextParser>False</ShowTextParser>
+                        <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+return
+]]></Script>
+                        <DialogOptions />
+                      </Dialog>
+                      <Dialog>
+                        <ID>175</ID>
+                        <Name>dOliverFNiD4</Name>
+                        <ShowTextParser>False</ShowTextParser>
+                        <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+return
+]]></Script>
+                        <DialogOptions />
+                      </Dialog>
+                    </Dialogs>
+                  </DialogFolder>
+                </SubFolders>
+                <Dialogs />
               </DialogFolder>
               <DialogFolder Name="Pastor O'Kean">
                 <SubFolders />
