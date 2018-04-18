@@ -7086,11 +7086,23 @@ return
                         <ShowTextParser>False</ShowTextParser>
                         <Script><![CDATA[// Dialog script file
 @S  // Dialog startup entry point
+  if(tLoops == 0)
+  {
 cOliverFr: Jimmy, I didn’t know you were in town. What brings you back to Cosmos?
 cJimmy: Mary called me about the the death of Gerald. She wanted me to look into his death.
 cOliverFr: Of course she did.
 cJimmy: Can I ask you a few questions about the case?
 cOliverFr: You can, but don’t go stirring up any trouble.
+  }
+  if(tLoops >= 1)
+  {
+cOliverFr: Jimmy, I didn’t know you were in town. What brings you back to Cosmos?
+cJimmy: I...didn’t you already ask me that? 
+cOliverFR: Well, seeing as though I haven’t seen you in years I don’t see how I could have?..
+cJimmy: Right. I’m just tired. Um..can I ask you a few questions about the case?
+cOliverFr: You can, but I’m not allowed to discuss much.
+  dOliverFNoD2.SetOptionState(3, eOptionOn);
+  }
 return
 @1
 cJimmy: Mary said that you guys are ruling this an accident. Is that true?
@@ -7106,15 +7118,17 @@ cOliverFr: There is more, some legal matters between Peter Petersen and Gerald, 
 cJimmy: Alright, I understand.
 return
 @3
+cOliverFr:
+return
+@4
 cJimmy: Thanks for the information.
 cOliverFr: Yeah, yeah, no problem.
-  if(!btnChurch.Visible)
+  if(!btnChurch.Visible && tLoops == 0)
   {
     SetVisibility(btnChurch);
     GuiUpdate(gMap);
   }
 stop
-
 ]]></Script>
                         <DialogOptions>
                           <DialogOption>
@@ -7125,12 +7139,18 @@ stop
                           </DialogOption>
                           <DialogOption>
                             <ID>2</ID>
-                            <Text xml:space="preserve">Any people having disagreements with Gerald.</Text>
+                            <Text xml:space="preserve">Any people having disagreements with Gerald?</Text>
                             <Show>True</Show>
                             <Say>True</Say>
                           </DialogOption>
                           <DialogOption>
                             <ID>3</ID>
+                            <Text xml:space="preserve">Can I see the evidence?</Text>
+                            <Show>True</Show>
+                            <Say>True</Say>
+                          </DialogOption>
+                          <DialogOption>
+                            <ID>4</ID>
                             <Text xml:space="preserve">Thanks for the information.</Text>
                             <Show>True</Show>
                             <Say>True</Say>
@@ -8927,11 +8947,6 @@ return
           <Name>performedAction</Name>
           <Type>bool</Type>
           <DefaultValue>false</DefaultValue>
-        </GlobalVariable>
-        <GlobalVariable>
-          <Name>cork</Name>
-          <Type>DynamicSprite*</Type>
-          <DefaultValue />
         </GlobalVariable>
       </Variables>
     </GlobalVariables>
