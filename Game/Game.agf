@@ -7805,6 +7805,7 @@ return
                         <Name>dKatieMMD4</Name>
                         <ShowTextParser>False</ShowTextParser>
                         <Script><![CDATA[// Dialog script file
+
 @S  // Dialog startup entry point
 return
 @1
