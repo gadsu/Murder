@@ -8505,8 +8505,11 @@ stop
 Narrator: Thank you for playing the prologue for A Murder Mystery in Minnesota.
 Narrator: Jimmy revisits the crime scene one last time before calling it a night.
 Narrator: Only to wake up three days earlier, stuck in a time loop.
+  performedAction = true;
+  SetVisibilityGUI(gMap);
+  MakeButtonsClickable(btnMary);
   WatchTime();
-  player.ChangeRoom(5);]]></Script>
+stop]]></Script>
             <DialogOptions />
           </Dialog>
           <Dialog>
