@@ -2041,7 +2041,7 @@
                   <OnClick />
                   <Height>170</Height>
                   <Width>210</Width>
-                  <Left>52</Left>
+                  <Left>57</Left>
                   <Top>35</Top>
                   <Clickable>False</Clickable>
                   <Visibility>NormalButInitiallyOff</Visibility>
@@ -5334,10 +5334,10 @@ return
 
 @1
 cJimmy: Why do you think this was a murder and not something else, Mary?
-cMary: There are people in town who don’t get along with Gerald. 
+cMary: There are people in town who donÂ’t get along with Gerald. 
 cMary: In the last few years he had gotten into more than a few fights with them.  
-cMary: I… I can’t believe that Gerald would have taken his own life, accidental or otherwise. 
-cMary: He is… He was a very smart man, Jimmy. Someone had to of done this to him.
+cMary: IÂ… I canÂ’t believe that Gerald would have taken his own life, accidental or otherwise. 
+cMary: He isÂ… He was a very smart man, Jimmy. Someone had to of done this to him.
 return
 
 
@@ -5353,25 +5353,25 @@ return
 
 @3
 cJimmy: Mary, do you have any thoughts on where I should start at all?
-cMary: Gerald’s basement would be your best bet, Jimmy.
-cMary: That is where he did all his work and…
+cMary: GeraldÂ’s basement would be your best bet, Jimmy.
+cMary: That is where he did all his work andÂ…
 cMary: That is where the police say they found him.
-cMary: Could… Could you look at his computer? See if he left something behind.
-cMary: I don’t think there is anything but I just want to make sure.
+cMary: CouldÂ… Could you look at his computer? See if he left something behind.
+cMary: I donÂ’t think there is anything but I just want to make sure.
 cJimmy: Of course, Mary.
 return
 
 @4
 cJimmy: Mary, do you remember if he was acting strange before his death? 
 cJimmy: Maybe he was acting paranoid or saying he was being watching by someone?
-cMary: What? Of course not! I had just seen him a few days before he… he died.
-cMary: He was acting perfectly normal… normal for himself at least. 
+cMary: What? Of course not! I had just seen him a few days before heÂ… he died.
+cMary: He was acting perfectly normalÂ… normal for himself at least. 
 return
 
 @5
-cJimmy: Well Mary, I believe I should be heading over to Gerald’s place to start looking into what happened. 
+cJimmy: Well Mary, I believe I should be heading over to GeraldÂ’s place to start looking into what happened. 
 cJimmy: Have a nice day, alright?
-cMary: Thank you, Jimmy. Really. This means alot to me..Here, you’ll need these before you head over there.
+cMary: Thank you, Jimmy. Really. This means alot to me..Here, youÂ’ll need these before you head over there.
   SetVisibility(btnGerald);
   GuiUpdate(gMap);
 stop]]></Script>
@@ -5539,16 +5539,16 @@ return
 return
 @1
 cJimmy: Did Gerald know anyone who went hunting? There were a few bullet holes in his lab.
-cMary: I think Peter would go hunting sometimes by Gerald’s farm with his brother-in-law Michael. 
-cMary: I’m not too sure though but Mr. Smith would know. He is running the Taxidermy with his son now.
+cMary: I think Peter would go hunting sometimes by GeraldÂ’s farm with his brother-in-law Michael. 
+cMary: IÂ’m not too sure though but Mr. Smith would know. He is running the Taxidermy with his son now.
 cJimmy: Really? Huh, I'll have to stop in at some point.
   dMaryBED1.SetOptionState(1, eOptionOff);
 return
 
 @2
 cJimmy: Earlier, you mentioned that there were others that Gerald was upsetting. Who are they?
-cMary: I know that Gerald and Michael’s oldest boy didn’t see eye to eye. 
-cMary: Apparently they’d get into shouting matches in the middle of public
+cMary: I know that Gerald and MichaelÂ’s oldest boy didnÂ’t see eye to eye. 
+cMary: Apparently theyÂ’d get into shouting matches in the middle of public
   dMaryBED1.SetOptionState(2, eOptionOff);
 return
 
@@ -5560,8 +5560,8 @@ cMary: If there are any, I don't know them. Best bet would be to go to the Legio
 return
 
 @4
-cJimmy: It is getting late and I think it is my time to get over to my parent’s place. You’ve been very helpful, Mary.
-cMary: I’m glad to help you, Jimmy. It would probably be a really good idea to go to evening service at Peace Lutheran tomorrow.
+cJimmy: It is getting late and I think it is my time to get over to my parentÂ’s place. YouÂ’ve been very helpful, Mary.
+cMary: IÂ’m glad to help you, Jimmy. It would probably be a really good idea to go to evening service at Peace Lutheran tomorrow.
 cMary: You might be able to catch up with some folks, like Peter.
 cJimmy: Will do. Good night.
   WatchTime();
@@ -5638,7 +5638,7 @@ return
 @S  // Dialog startup entry point
 return
 @1
-cJimmy: The police were uncooperative, and the church goers didn’t have much to say.
+cJimmy: The police were uncooperative, and the church goers didnÂ’t have much to say.
 cJimmy: They mentioned something about an argument with Peter and Gerald. You know anything about that?
 cMary: Nope.
 cJimmy: I think I'll pay Peter a visit in the morning.
@@ -5668,7 +5668,7 @@ cMary: Hey, Jimmy. Sorry I can't keep you for long, we're about to head to bed.
 cJimmy: It's fine. I didn't get much.
 return
 @1
-cJimmy: The police were uncooperative, and the church goers didn’t have much to say.
+cJimmy: The police were uncooperative, and the church goers didnÂ’t have much to say.
 cJimmy: They did mention something about an argument between Peter and Gerald.
 cMary: I think Peter should be at work in the morning. Maybe pay him a visit?
 cJimmy: Yeah, I think I'll do that. Thanks.
@@ -6060,7 +6060,7 @@ return
                         <ShowTextParser>False</ShowTextParser>
                         <Script><![CDATA[// Dialog script file
 @S  // Dialog startup entry point
-cMichaelH: It’s been quite some time since the last time you were in town, Jimmy.
+cMichaelH: ItÂ’s been quite some time since the last time you were in town, Jimmy.
 cJimmy: Yeah, been quite a while. Under some sad circumstances, but yeah, a while.
 cMichaelH: What a cryin' shame what happened to Gerald. 
 return
@@ -6158,7 +6158,7 @@ cMichaelH: I mean, sure, but I thought it was an accident?
 cJimmy: I just want to make sure is all.
 return
 @1
-cJimmy: I’d like you to tell me about your night on Friday, January 16th. Give note of anyone who was acting odd.
+cJimmy: IÂ’d like you to tell me about your night on Friday, January 16th. Give note of anyone who was acting odd.
 cMichaelH: Surprising, not that many people were here. I think it was because of the storm that came through.
 cMichaelH: Anywho, the only folks I can remember being here was Luke and some Fabrizio fella.
 cJimmy: Was it Fabian?
@@ -6535,10 +6535,10 @@ return
                         <Script><![CDATA[// Dialog script file
 @S  // Dialog startup entry point
 cJimmy: Good evening, ma'am. My name is Jimmy Oden, private investigator. 
-cJimmy: I’m investigating the death of Gerald Loughlin. 
+cJimmy: IÂ’m investigating the death of Gerald Loughlin. 
 cJimmy: I spoke to your husband the other day at the evening service. 
 cTracyH: I think I remember seeing you the other day. Is there something you wanted to know?
-cJimmy: I’d like to ask you a few questions regarding the recently deceased, and the relationship your kids had with him.
+cJimmy: IÂ’d like to ask you a few questions regarding the recently deceased, and the relationship your kids had with him.
 cTracyH: They don't know him. My kids were raised better than to hangout with the likes of someone like Mr. Loughlin.
 cJimmy: Ma'am, I'm not here to question about the quality of your parenting. Here's the problem...
 cJimmy: Earl, over by the gas station, has been saying they're showing up during school hours.
@@ -6825,40 +6825,40 @@ return
 // Dialog script file
 @S  // Dialog startup entry point
 cOliverFr: Hey Jimmy, come sit with us!
-cMary: You’re probably exhausted from running around town all day.
-cJimmy: Well… If you two insist I can’t just refuse.
+cMary: YouÂ’re probably exhausted from running around town all day.
+cJimmy: WellÂ… If you two insist I canÂ’t just refuse.
 cMary: So, if you don't mind me asking, what are you thinking? It's been a few days.
 return
 @1
 cJimmy: When I went to see Peter seemed kind of off. Do you think it could have been Peter? 
 cJimmy: Given that Peter had tried to sue Gerald, maybe he thought it'd be easier if the defendant couldn't defend himself.
-cMary: I don’t think so. It just doesn’t seem like the thing that Peter would do. 
-cMary: There have been times when Gerald really upset Peter but they’d smooth it out sooner or later.
-cOliverFR: Pete can be a hot head but he has been dealing with Gerald longer than anyone, he isn’t the type to be a killer.
-cJimmy: Hmm, you both might be right but there is something he’s hiding.
+cMary: I donÂ’t think so. It just doesnÂ’t seem like the thing that Peter would do. 
+cMary: There have been times when Gerald really upset Peter but theyÂ’d smooth it out sooner or later.
+cOliverFR: Pete can be a hot head but he has been dealing with Gerald longer than anyone, he isnÂ’t the type to be a killer.
+cJimmy: Hmm, you both might be right but there is something heÂ’s hiding.
 return
 @2
 cJimmy: I went to see Valerie today and she said something really weird. 
 cJimmy: She said the same thing you did, Oliver, but it was very harsh and confrontational.
 cJimmy: Any clue what she'd mean by that?
 cOliverFr: I mean, that's what we found - not a murder, but an accident.
-cMary: Think about it, Oli. I don’t remember Gerald getting along with Valerie too much, and Valerie...
+cMary: Think about it, Oli. I donÂ’t remember Gerald getting along with Valerie too much, and Valerie...
 cMary: Well, she isn't the kindest soul.
-cOliverFr: I remember there was something going on between them a few weeks after Peter’s crew finished their contract for him. 
+cOliverFr: I remember there was something going on between them a few weeks after PeterÂ’s crew finished their contract for him. 
 cOliverFr: Seemed like something was going to happen but never read anything in the paper or heard anything at the Sheriff's Office.
 cJimmy: Huh. That's really odd. Maybe something deeper?
 cOliverFr: Always something deeper with you, Jimmy. Sometimes, a spade is just a spade.
 return
 @3
-cJimmy: I’ve heard about a Fabio or Flavio a few times now and it sounds familiar. Who is he?
+cJimmy: IÂ’ve heard about a Fabio or Flavio a few times now and it sounds familiar. Who is he?
 cOliverFr: Fabian Ayers? He was friends with Peter and Gerald in High School and those three basically did everything together. 
 cOliverFr: Gerald and Fabian always tried to prove they were smarter than the other if I remember right. 
 cOliverFr: The Science Fair was like a warzone with those two.
 cMary: When Gerald and Peter went to college he stayed behind. 
 cMary: Fabian worked all sorts of jobs around before Peter came back and took over the Construction Company. 
-cMary: They’ve been working together ever since.
+cMary: TheyÂ’ve been working together ever since.
 cJimmy: Do you know where he lives so I could talk to him?
-cOliverFr: If I remember right Fabian is at his cousin’s wedding or so Peter said.
+cOliverFr: If I remember right Fabian is at his cousinÂ’s wedding or so Peter said.
 cJimmy: I see, I might have to get his number then.
 return
 @4
@@ -6866,13 +6866,13 @@ cJimmy: Is there anyone in town that seems odd that I might want to know about?
 cOliverFr: Old Man McCreager will always be an odd man here in town. 
 cOliverFr: He is the old man who runs the Gas Station but recently he got a bit more weird. 
 cOliverFr: About a month ago another older man moved into his house. 
-cOliverFr: The few times I encountered the guy I would try to talk to him but each time he’d just freeze up. 
+cOliverFr: The few times I encountered the guy I would try to talk to him but each time heÂ’d just freeze up. 
 cOliverFr: He would act like a deer in headlights before waddling away as quick as he can.
-cJimmy: Well that definitely doesn’t sound normal at all. 
+cJimmy: Well that definitely doesnÂ’t sound normal at all. 
 return
 @5
-cJimmy: Well I think it’s time to eat, I still have to go back to Gerald’s place.
-cMary: Finally, I’m starving!
+cJimmy: Well I think itÂ’s time to eat, I still have to go back to GeraldÂ’s place.
+cMary: Finally, IÂ’m starving!
   player.ChangeRoom(303);
 stop
 ]]></Script>
@@ -6903,7 +6903,7 @@ stop
                   </DialogOption>
                   <DialogOption>
                     <ID>5</ID>
-                    <Text xml:space="preserve">Let's order some food, I’m starving.</Text>
+                    <Text xml:space="preserve">Let's order some food, IÂ’m starving.</Text>
                     <Show>True</Show>
                     <Say>True</Say>
                   </DialogOption>
@@ -6934,28 +6934,28 @@ return
                     <ShowTextParser>False</ShowTextParser>
                     <Script><![CDATA[// Dialog script file
 @S  // Dialog startup entry point
-cJimmy: Hello, Valerie. I’m sure you know why I’m here. Would you answer my questions?
+cJimmy: Hello, Valerie. IÂ’m sure you know why IÂ’m here. Would you answer my questions?
 cValerieN: I do, James, and I will answer what I can.
 return
 @1
 cJimmy: So, Mayor Nelsen how did you know Gerald?
 cValerieN: James, you should already know this; he was a classmate of my husband and he was the local nuisance. 
 cJimmy: Local nuisance?
-cValerieN: It isn’t much of a secret, James. He didn’t get along with people and people didn’t like him.
+cValerieN: It isnÂ’t much of a secret, James. He didnÂ’t get along with people and people didnÂ’t like him.
 cJimmy: Has he been a nuisance to you specifically?
 cValerieN: If he is bothering the town then he is bothering me, James.
-cJimmy: If he was such a bother to the town, wouldn’t you have tried to talk to him?
-cValerieN: You don’t think I tried? I went to his house almost every day, knocking on his door, trying everything to talk to him.
-cValerieN: You know what the most I ever got out of him was? A “Go away”...
+cJimmy: If he was such a bother to the town, wouldnÂ’t you have tried to talk to him?
+cValerieN: You donÂ’t think I tried? I went to his house almost every day, knocking on his door, trying everything to talk to him.
+cValerieN: You know what the most I ever got out of him was? A Â“Go awayÂ”...
 return
 @2
-cJimmy: You probably heard from the townsfolk a lot about Gerald, is there anyone you’d think is the killer?
-cValerieN: Killer?! James have you not been paying attention at all since you’ve gotten back? Gerald’s death was accidental. 
+cJimmy: You probably heard from the townsfolk a lot about Gerald, is there anyone youÂ’d think is the killer?
+cValerieN: Killer?! James have you not been paying attention at all since youÂ’ve gotten back? GeraldÂ’s death was accidental. 
 cValerieN: There was no murder and there is no killer, understand?
 cJimmy: I heard you loud and clear, Valerie.
 return
 @3
-cJimmy: Where were you the night of Gerald’s death?
+cJimmy: Where were you the night of GeraldÂ’s death?
 cValerieN: I was at my daughters volleyball game that night.
 cJimmy: Is there anyone who could corroborate that story?
 cValerieN: Do you not believe me?
@@ -6964,8 +6964,8 @@ cValerieN: Fine, fine. Just ask my husband, my daughters, or Patricia Hartman. T
 return
 @4
 cJimmy: Thank you for answering these questions, Valerie
-cValerieN: Don’t be such a stranger, James. 
-cValerieN: Hopefully the next time you decide to visit your hometown, it won’t be because of someone’s death.
+cValerieN: DonÂ’t be such a stranger, James. 
+cValerieN: Hopefully the next time you decide to visit your hometown, it wonÂ’t be because of someoneÂ’s death.
   SetVisibility(btnKKitchen);
   GuiUpdate(gMap);
 stop
@@ -7039,15 +7039,15 @@ stop
                     <ShowTextParser>False</ShowTextParser>
                     <Script><![CDATA[// Dialog script file
 @S  // Dialog startup entry point
-cOliverFr: Jimmy, I didn’t know you were in town. What brings you back to Cosmos?
+cOliverFr: Jimmy, I didnÂ’t know you were in town. What brings you back to Cosmos?
 cJimmy: Mary called me about the the death of Gerald. She wanted me to look into his death.
 cOliverFr: Of course she did.
 cJimmy: Can I ask you a few questions about the case?
-cOliverFr: You can, but don’t go stirring up any trouble.
+cOliverFr: You can, but donÂ’t go stirring up any trouble.
 return
 @1
 cJimmy: Mary said that you guys are ruling this an accident. Is that true?
-cOliverFr: Yes, everything we found points towards Gerald’s death being an accident.
+cOliverFr: Yes, everything we found points towards GeraldÂ’s death being an accident.
 return
 @2
 cJimmy: Was anyone upset with Gerald?
@@ -7104,16 +7104,16 @@ stop
 cWilliamOK: Welcome Jimmy, it has been a long time since I've seen you at one of my services. 
 cWilliamOK: What brings you back to town?
 cJimmy: Mary asked me to look into Gerald's death. Would you mind if I asked you some questions?
-cWilliamOK: Of course. I’m happy to help in anyway I can.
+cWilliamOK: Of course. IÂ’m happy to help in anyway I can.
 return
 @1
-cJimmy: How have people been reacting to Gerald’s death?
+cJimmy: How have people been reacting to GeraldÂ’s death?
 cWilliamOK: Everyone has kept very quiet about it. 
 cWilliamOK: But it has come at a great shock to the community. 
-cWilliamOK: I’m sure that it really hasn’t sunk in yet.
+cWilliamOK: IÂ’m sure that it really hasnÂ’t sunk in yet.
 return
 @2
-cJimmy: How have people been reacting to Gerald’s death?
+cJimmy: How have people been reacting to GeraldÂ’s death?
 cWilliamOK: Gerald seemed like his normal self, nothing seemed to be off about him.
 cWilliamOK: He did seem excited about some project he had been working on.
 cWilliamOK: Unfortunately, he never had time to talk about it.
@@ -7121,7 +7121,7 @@ return
 @3
 cJimmy: Had anyone been fighting with Gerald recently?
 cWilliamOK: Nothing out of the normal, he had brought up an argument with Peter. 
-cWilliamOK: Of course, that didn’t seem out of the normal for them.
+cWilliamOK: Of course, that didnÂ’t seem out of the normal for them.
 return
 @4
 cJimmy: I'll talk to you later.
@@ -7134,7 +7134,7 @@ stop
                     <DialogOptions>
                       <DialogOption>
                         <ID>1</ID>
-                        <Text xml:space="preserve">How have people reacted to Gerald’s death?</Text>
+                        <Text xml:space="preserve">How have people reacted to GeraldÂ’s death?</Text>
                         <Show>True</Show>
                         <Say>True</Say>
                       </DialogOption>
@@ -7169,12 +7169,12 @@ stop
                     <ShowTextParser>False</ShowTextParser>
                     <Script><![CDATA[// Dialog script file
 @S  // Dialog startup entry point
-cJimmy: Brrrrrrrr. There’s a bit of snow out there today, huh?
+cJimmy: Brrrrrrrr. ThereÂ’s a bit of snow out there today, huh?
 cJanet: You call this snow? Remember the great Halloween blizzard of '91?. Now that was a bit of snow. 
 cJanet: Anywho, is there something I can do for you, sir?
-cJimmy: Well, Janet, as a matter of fact there is. I’ve been asking around about the recently deceased Gerald Loughlin. 
+cJimmy: Well, Janet, as a matter of fact there is. IÂ’ve been asking around about the recently deceased Gerald Loughlin. 
 cJimmy: Care to answer a few questions?
-cJanet: Oh, I wouldn’t be any help there. Earl might know. He’s in the isle if you want to talk to him.
+cJanet: Oh, I wouldnÂ’t be any help there. Earl might know. HeÂ’s in the isle if you want to talk to him.
 cJimmy: Thanks for your time, Janet.
 stop
 ]]></Script>
@@ -7493,21 +7493,21 @@ return
 cJimmy:Excuse me, Luke. Michael over there tells me you were here last Friday night, on January 16th. Care to answer some questions?
 cLuke: Who are you? I used to be a dancer. Watch me plaai..plery...twirl.
 cJimmy: Look, Mr. Ballerina, I need you to stop your spinning and sit down so I can ask you questions about the death of Gerald Loughlin.
-cLuke: Oh… what did you... want to know?
+cLuke: OhÂ… what did you... want to know?
 return
 @1
 cJimmy: Michael tells me you left with a man last friday night. Care to tell me what you two did?
 cLuke: You mean Faaabian? Yeah, he was buying me drinks all night. One heck of a guy if you ask me! 
 cJimmy: Fabian. Alright, so what did you and Fabian do that night?
-cLuke: I used to be the best dancer in my studio, you know? I sailed through the sky so beautifully like an eagle. But just like Buzz Lightyear, I will go sailing no more…
+cLuke: I used to be the best dancer in my studio, you know? I sailed through the sky so beautifully like an eagle. But just like Buzz Lightyear, I will go sailing no moreÂ…
 cJimmy: Luke! I need you to concentrate here. 
-cJimmy: I don’t mean to sound heartless, but I don’t care about your failed dancing career. 
-cJimmy: A man is dead, and I can’t waste my time talking to you if you can’t answer my questions.
-cLuke: Okay...okay...I left with Fabian a little after 10. We walked around with a few beers in our hands...I don’t remember after that...I’m sorry.
-cJimmy: It’s fine. If you happen to remember anything else I want you to contact me right away.
+cJimmy: I donÂ’t mean to sound heartless, but I donÂ’t care about your failed dancing career. 
+cJimmy: A man is dead, and I canÂ’t waste my time talking to you if you canÂ’t answer my questions.
+cLuke: Okay...okay...I left with Fabian a little after 10. We walked around with a few beers in our hands...I donÂ’t remember after that...IÂ’m sorry.
+cJimmy: ItÂ’s fine. If you happen to remember anything else I want you to contact me right away.
 return
 @2
-cLuke: Who? No, I didn’t know him.
+cLuke: Who? No, I didnÂ’t know him.
 return
 @3
 cJimmy: Hmm...I think I might have to stop by the taxidermy tomorrow. I think that Stephen man works there.
@@ -7583,25 +7583,25 @@ return
 @1
 cJimmy: Word is you and Gerald were pretty close. How long were you two friends? 
 cPeterP: We had been good friends for about 20 years.
-cJimmy: That’s quite some time. Any disagreements recently?
-cPeterP: We got into a bit of an argument over some work, but that’s not something I want to get into currently. 
+cJimmy: ThatÂ’s quite some time. Any disagreements recently?
+cPeterP: We got into a bit of an argument over some work, but thatÂ’s not something I want to get into currently. 
 return
 @2
-cJimmy: Gerald wasn’t all that liked from what i’ve been hearing. Know anyone who would want him gone?
+cJimmy: Gerald wasnÂ’t all that liked from what iÂ’ve been hearing. Know anyone who would want him gone?
 cPeterP: Gerald made plenty of enemies in his life. But none would go as far as to kill him.
 cJimmy: Ya gotta give me some names, Peter.
-cPeterP: I don’t know why you even need names. The sheriff said it was an accident, so there shouldn’t be any reason for you to snoop around in people’s lives.
-cJimmy: Look, by my deduction Gerald was murdered. Now, I don’t know what that means in terms of why it’s been ruled an accident. But for me to find out, I’ve got to have some names of those who might have wanted to silence Gerald. Please, Peter.
-cPeterP: Well...look, I’m going to give you some names, and names only. You can use them to maybe find out more. But don’t go saying that I’m the one who told you. Valerie and Frederick.
-cJimmy: Thanks, Peter. You’ve got my word.
+cPeterP: I donÂ’t know why you even need names. The sheriff said it was an accident, so there shouldnÂ’t be any reason for you to snoop around in peopleÂ’s lives.
+cJimmy: Look, by my deduction Gerald was murdered. Now, I donÂ’t know what that means in terms of why itÂ’s been ruled an accident. But for me to find out, IÂ’ve got to have some names of those who might have wanted to silence Gerald. Please, Peter.
+cPeterP: Well...look, IÂ’m going to give you some names, and names only. You can use them to maybe find out more. But donÂ’t go saying that IÂ’m the one who told you. Valerie and Frederick.
+cJimmy: Thanks, Peter. YouÂ’ve got my word.
 return
 @3
-cJimmy: I’d like to know what you did in entirety on January 16th. From when you got up, to when you went to bed. Be specific with times, please.
+cJimmy: IÂ’d like to know what you did in entirety on January 16th. From when you got up, to when you went to bed. Be specific with times, please.
 cPeterP: Well, I got up, went to work around 8am to deal with business involving the company. 
 cPeterP: Later around 1pm, I went to the Legion for their fish fry they do every friday. 
 cPeterP: I left around 2pm, and went to the Mayor's office to talk to her about some company issues I had been having. 
 cPeterP: I got back to work at 4ish, then proceeded to do work until around 7pm. 
-cPeterP: I went home, and my wife and I went on our weekly friday night date at Katie’ Kitchen. We were there from about 8 to 1030. 
+cPeterP: I went home, and my wife and I went on our weekly friday night date at KatieÂ’ Kitchen. We were there from about 8 to 1030. 
 cPeterP: We got home and were in bed by 11. Detailed enough?
 cJimmy: Sounds good to me.
 return
@@ -7610,7 +7610,7 @@ cJimmy: So, Oliver had mentioned that around the same time your last job ended, 
 cJimmy: Care to elaborate on that?
 cPeterP: I suppose now that suit has been canceled, I can tell you. 
 cPeterP: Gerald had hired my company to build an extension to his basement. 
-cPeterP: At first that’s all there was, but later he kept asking for more and more and that he would pay handsomely for it. 
+cPeterP: At first thatÂ’s all there was, but later he kept asking for more and more and that he would pay handsomely for it. 
 cPeterP: Naturally, I took the extra work. 
 return
 @5
@@ -8119,8 +8119,8 @@ return
                     <ShowTextParser>False</ShowTextParser>
                     <Script><![CDATA[// Dialog script file
 @S  // Dialog startup entry point
-cJimmy: I hope you aren’t too busy, Mr. Smith. If you don’t mind I’d like to ask you some questions.
-cStephenS: Oh, Jimmy. I heard you were back in town. I don’t mind answering questions.
+cJimmy: I hope you arenÂ’t too busy, Mr. Smith. If you donÂ’t mind IÂ’d like to ask you some questions.
+cStephenS: Oh, Jimmy. I heard you were back in town. I donÂ’t mind answering questions.
 return
 @1
 cJimmy: I heard that you talked often with Gerald, how did you know him?
@@ -8130,14 +8130,14 @@ cStephenS: Of course, Gerald was always respectful to me and my boy. He was like
 return
 @2
 cJimmy: Mr. Smith, did you know anyone who would want to kill Gerald?
-cStephenS: Oh no, no. Gerald could be rough around the edge but that wouldn’t be enough to kill him. 
+cStephenS: Oh no, no. Gerald could be rough around the edge but that wouldnÂ’t be enough to kill him. 
 cStephenS: He was always a good boy, Jimmy.
-cJimmy: Hmm, you can’t think of anyone who would have a grudge against him?
+cJimmy: Hmm, you canÂ’t think of anyone who would have a grudge against him?
 cStephenS: Well, there was Fabian in High School but they were more like rivals. 
 cStephenS: They were the top two students in their class but besides that they seemed like good friends. 
 return
 @3
-cJimmy: Where were you the night of Gerald’s death?
+cJimmy: Where were you the night of GeraldÂ’s death?
 cStephenS: Where was I? Uh.. I was home watching my shows.
 cJimmy: Was anyone there with you, Mr. Smith?
 cStephenS: I live by myself, Jimmy. So no, no one else was there. 
@@ -8260,13 +8260,13 @@ Narrator: ...
 Narrator: January 20th, 2004. Minneapolis, Minnesota.
 cJimmy: Hello...? Who is this, it's three in the morning...
 cMary: Hey Jimmy, this is Mary. 
-cJimmy: Good morning Mary, it’s been awhile. Is everything alright?
+cJimmy: Good morning Mary, itÂ’s been awhile. Is everything alright?
 cMary: Do you remember my cousin Gerald?
 cJimmy: The name sounds familiar, why do you ask?
-cMary: He’s dead.
-cJimmy: Oh..I’m sorry for your loss. When did he pass away?
+cMary: HeÂ’s dead.
+cJimmy: Oh..IÂ’m sorry for your loss. When did he pass away?
 cMary: A few days ago. Would you be able to come down for a visit, and pay your respects?
-cJimmy:I don’t know… I’m pretty busy, Mary.
+cJimmy:I donÂ’t knowÂ… IÂ’m pretty busy, Mary.
 cMary: I'm starting to think he was murdered.
 cJimmy: Why do would you think that?
 cMary: The police haven't been telling me how he died. Please, for old time's sake?
@@ -16431,7 +16431,7 @@ return
                     <DefaultVolume>-1</DefaultVolume>
                     <DefaultPriority>Inherit</DefaultPriority>
                     <DefaultRepeat>Inherit</DefaultRepeat>
-                    <FileLastModifiedDate>2018-02-15 15:31:31Z</FileLastModifiedDate>
+                    <FileLastModifiedDate>2018-04-12 19:30:55Z</FileLastModifiedDate>
                   </AudioClip>
                   <AudioClip>
                     <SourceFileName xml:space="preserve">C:\Users\accurry\Desktop\murder\Sound Design\Music\SiD Songs\BB-Tailfeather.ogg</SourceFileName>
@@ -16443,7 +16443,7 @@ return
                     <DefaultVolume>-1</DefaultVolume>
                     <DefaultPriority>Inherit</DefaultPriority>
                     <DefaultRepeat>Inherit</DefaultRepeat>
-                    <FileLastModifiedDate>2018-02-15 15:31:31Z</FileLastModifiedDate>
+                    <FileLastModifiedDate>2018-04-12 19:30:55Z</FileLastModifiedDate>
                   </AudioClip>
                   <AudioClip>
                     <SourceFileName xml:space="preserve">C:\Users\accurry\Desktop\murder\Sound Design\Music\SiD Songs\When I'm Gone - 3DD.ogg</SourceFileName>
@@ -16455,7 +16455,7 @@ return
                     <DefaultVolume>-1</DefaultVolume>
                     <DefaultPriority>Inherit</DefaultPriority>
                     <DefaultRepeat>Inherit</DefaultRepeat>
-                    <FileLastModifiedDate>2018-02-15 15:31:31Z</FileLastModifiedDate>
+                    <FileLastModifiedDate>2018-04-12 19:30:59Z</FileLastModifiedDate>
                   </AudioClip>
                   <AudioClip>
                     <SourceFileName xml:space="preserve">C:\Users\accurry\Desktop\murder\Sound Design\Music\SiD Songs\BRC-AchyBreakyHeart.ogg</SourceFileName>
@@ -16467,7 +16467,7 @@ return
                     <DefaultVolume>-1</DefaultVolume>
                     <DefaultPriority>Inherit</DefaultPriority>
                     <DefaultRepeat>Inherit</DefaultRepeat>
-                    <FileLastModifiedDate>2018-02-15 15:31:31Z</FileLastModifiedDate>
+                    <FileLastModifiedDate>2018-04-12 19:30:55Z</FileLastModifiedDate>
                   </AudioClip>
                   <AudioClip>
                     <SourceFileName xml:space="preserve">C:\Users\accurry\Desktop\murder\Sound Design\Music\SiD Songs\Bring Me To Life.ogg</SourceFileName>
@@ -16479,7 +16479,7 @@ return
                     <DefaultVolume>-1</DefaultVolume>
                     <DefaultPriority>Inherit</DefaultPriority>
                     <DefaultRepeat>Inherit</DefaultRepeat>
-                    <FileLastModifiedDate>2018-02-15 15:31:31Z</FileLastModifiedDate>
+                    <FileLastModifiedDate>2018-04-12 19:30:55Z</FileLastModifiedDate>
                   </AudioClip>
                   <AudioClip>
                     <SourceFileName xml:space="preserve">C:\Users\accurry\Desktop\murder\Sound Design\Music\SiD Songs\Buddy Holly - Weezer.ogg</SourceFileName>
@@ -16491,7 +16491,7 @@ return
                     <DefaultVolume>-1</DefaultVolume>
                     <DefaultPriority>Inherit</DefaultPriority>
                     <DefaultRepeat>Inherit</DefaultRepeat>
-                    <FileLastModifiedDate>2018-02-15 15:31:31Z</FileLastModifiedDate>
+                    <FileLastModifiedDate>2018-04-12 19:30:56Z</FileLastModifiedDate>
                   </AudioClip>
                   <AudioClip>
                     <SourceFileName xml:space="preserve">C:\Users\accurry\Desktop\murder\Sound Design\Music\SiD Songs\Convoy - CW McCall.ogg</SourceFileName>
@@ -16503,7 +16503,7 @@ return
                     <DefaultVolume>-1</DefaultVolume>
                     <DefaultPriority>Inherit</DefaultPriority>
                     <DefaultRepeat>Inherit</DefaultRepeat>
-                    <FileLastModifiedDate>2018-02-15 15:31:31Z</FileLastModifiedDate>
+                    <FileLastModifiedDate>2018-04-12 19:30:56Z</FileLastModifiedDate>
                   </AudioClip>
                   <AudioClip>
                     <SourceFileName xml:space="preserve">C:\Users\accurry\Desktop\murder\Sound Design\Music\SiD Songs\Cotton Eyed Joe.ogg</SourceFileName>
@@ -16515,7 +16515,7 @@ return
                     <DefaultVolume>-1</DefaultVolume>
                     <DefaultPriority>Inherit</DefaultPriority>
                     <DefaultRepeat>Inherit</DefaultRepeat>
-                    <FileLastModifiedDate>2018-02-15 15:31:31Z</FileLastModifiedDate>
+                    <FileLastModifiedDate>2018-04-12 19:30:56Z</FileLastModifiedDate>
                   </AudioClip>
                   <AudioClip>
                     <SourceFileName xml:space="preserve">C:\Users\accurry\Desktop\murder\Sound Design\Music\SiD Songs\Devil Went Down to Georgia.ogg</SourceFileName>
@@ -16527,7 +16527,7 @@ return
                     <DefaultVolume>-1</DefaultVolume>
                     <DefaultPriority>Inherit</DefaultPriority>
                     <DefaultRepeat>Inherit</DefaultRepeat>
-                    <FileLastModifiedDate>2018-02-15 15:31:31Z</FileLastModifiedDate>
+                    <FileLastModifiedDate>2018-04-12 19:30:56Z</FileLastModifiedDate>
                   </AudioClip>
                   <AudioClip>
                     <SourceFileName xml:space="preserve">C:\Users\accurry\Desktop\murder\Sound Design\Music\SiD Songs\I Shot the Sheriff.ogg</SourceFileName>
@@ -16539,7 +16539,7 @@ return
                     <DefaultVolume>-1</DefaultVolume>
                     <DefaultPriority>Inherit</DefaultPriority>
                     <DefaultRepeat>Inherit</DefaultRepeat>
-                    <FileLastModifiedDate>2018-02-15 15:31:31Z</FileLastModifiedDate>
+                    <FileLastModifiedDate>2018-04-12 19:30:56Z</FileLastModifiedDate>
                   </AudioClip>
                   <AudioClip>
                     <SourceFileName xml:space="preserve">C:\Users\accurry\Desktop\murder\Sound Design\Music\SiD Songs\In The End - Linkin Park.ogg</SourceFileName>
@@ -16551,7 +16551,7 @@ return
                     <DefaultVolume>-1</DefaultVolume>
                     <DefaultPriority>Inherit</DefaultPriority>
                     <DefaultRepeat>Inherit</DefaultRepeat>
-                    <FileLastModifiedDate>2018-02-15 15:31:31Z</FileLastModifiedDate>
+                    <FileLastModifiedDate>2018-04-12 19:30:56Z</FileLastModifiedDate>
                   </AudioClip>
                   <AudioClip>
                     <SourceFileName xml:space="preserve">C:\Users\accurry\Desktop\murder\Sound Design\Music\SiD Songs\SP-GetBusy.ogg</SourceFileName>
@@ -16563,7 +16563,7 @@ return
                     <DefaultVolume>-1</DefaultVolume>
                     <DefaultPriority>Inherit</DefaultPriority>
                     <DefaultRepeat>Inherit</DefaultRepeat>
-                    <FileLastModifiedDate>2018-02-15 15:31:31Z</FileLastModifiedDate>
+                    <FileLastModifiedDate>2018-04-12 19:30:59Z</FileLastModifiedDate>
                   </AudioClip>
                   <AudioClip>
                     <SourceFileName xml:space="preserve">C:\Users\accurry\Desktop\murder\Sound Design\Music\SiD Songs\Lose Yourself - Eminem.ogg</SourceFileName>
@@ -16575,7 +16575,7 @@ return
                     <DefaultVolume>-1</DefaultVolume>
                     <DefaultPriority>Inherit</DefaultPriority>
                     <DefaultRepeat>Inherit</DefaultRepeat>
-                    <FileLastModifiedDate>2018-02-15 15:31:31Z</FileLastModifiedDate>
+                    <FileLastModifiedDate>2018-04-12 19:30:58Z</FileLastModifiedDate>
                   </AudioClip>
                   <AudioClip>
                     <SourceFileName xml:space="preserve">C:\Users\accurry\Desktop\murder\Sound Design\Music\SiD Songs\Linkin Park - Numb.ogg</SourceFileName>
@@ -16587,7 +16587,7 @@ return
                     <DefaultVolume>-1</DefaultVolume>
                     <DefaultPriority>Inherit</DefaultPriority>
                     <DefaultRepeat>Inherit</DefaultRepeat>
-                    <FileLastModifiedDate>2018-02-15 15:31:31Z</FileLastModifiedDate>
+                    <FileLastModifiedDate>2018-04-12 19:30:56Z</FileLastModifiedDate>
                   </AudioClip>
                   <AudioClip>
                     <SourceFileName xml:space="preserve">C:\Users\accurry\Desktop\murder\Sound Design\Music\SiD Songs\Metallica-One.ogg</SourceFileName>
@@ -16599,7 +16599,7 @@ return
                     <DefaultVolume>-1</DefaultVolume>
                     <DefaultPriority>Inherit</DefaultPriority>
                     <DefaultRepeat>Inherit</DefaultRepeat>
-                    <FileLastModifiedDate>2018-02-15 15:31:31Z</FileLastModifiedDate>
+                    <FileLastModifiedDate>2018-04-12 19:30:58Z</FileLastModifiedDate>
                   </AudioClip>
                   <AudioClip>
                     <SourceFileName xml:space="preserve">C:\Users\accurry\Desktop\murder\Sound Design\Music\SiD Songs\My Way - Richard Clayderrman.ogg</SourceFileName>
@@ -16611,7 +16611,7 @@ return
                     <DefaultVolume>-1</DefaultVolume>
                     <DefaultPriority>Inherit</DefaultPriority>
                     <DefaultRepeat>Inherit</DefaultRepeat>
-                    <FileLastModifiedDate>2018-02-15 15:31:31Z</FileLastModifiedDate>
+                    <FileLastModifiedDate>2018-04-12 19:30:58Z</FileLastModifiedDate>
                   </AudioClip>
                   <AudioClip>
                     <SourceFileName xml:space="preserve">C:\Users\accurry\Desktop\murder\Sound Design\Music\SiD Songs\Ring of Fire - Johnny Cash.ogg</SourceFileName>
@@ -16623,7 +16623,7 @@ return
                     <DefaultVolume>-1</DefaultVolume>
                     <DefaultPriority>Inherit</DefaultPriority>
                     <DefaultRepeat>Inherit</DefaultRepeat>
-                    <FileLastModifiedDate>2018-02-15 15:31:31Z</FileLastModifiedDate>
+                    <FileLastModifiedDate>2018-04-12 19:30:58Z</FileLastModifiedDate>
                   </AudioClip>
                   <AudioClip>
                     <SourceFileName xml:space="preserve">C:\Users\accurry\Desktop\murder\Sound Design\Music\SiD Songs\Smells Like Teen Spirit - Nickelback.ogg</SourceFileName>
@@ -16635,7 +16635,7 @@ return
                     <DefaultVolume>-1</DefaultVolume>
                     <DefaultPriority>Inherit</DefaultPriority>
                     <DefaultRepeat>Inherit</DefaultRepeat>
-                    <FileLastModifiedDate>2018-02-15 15:31:31Z</FileLastModifiedDate>
+                    <FileLastModifiedDate>2018-04-12 19:30:58Z</FileLastModifiedDate>
                   </AudioClip>
                 </AudioClips>
                 <AudioClipFolder>
@@ -16659,7 +16659,7 @@ return
                     <DefaultVolume>-1</DefaultVolume>
                     <DefaultPriority>Inherit</DefaultPriority>
                     <DefaultRepeat>Inherit</DefaultRepeat>
-                    <FileLastModifiedDate>2018-01-31 23:35:46Z</FileLastModifiedDate>
+                    <FileLastModifiedDate>2018-04-12 19:30:55Z</FileLastModifiedDate>
                   </AudioClip>
                   <AudioClip>
                     <SourceFileName xml:space="preserve">C:\Users\accurry\Desktop\murder\Sound Design\Music\Made for Game\Themes\generalTheme.ogg</SourceFileName>
@@ -16671,7 +16671,7 @@ return
                     <DefaultVolume>-1</DefaultVolume>
                     <DefaultPriority>Inherit</DefaultPriority>
                     <DefaultRepeat>Inherit</DefaultRepeat>
-                    <FileLastModifiedDate>2018-02-16 02:04:48Z</FileLastModifiedDate>
+                    <FileLastModifiedDate>2018-04-12 19:30:59Z</FileLastModifiedDate>
                   </AudioClip>
                   <AudioClip>
                     <SourceFileName xml:space="preserve">C:\Users\accurry\Desktop\murder\Sound Design\Music\Made for Game\Themes\geraldsHouse.ogg</SourceFileName>
@@ -16683,7 +16683,7 @@ return
                     <DefaultVolume>-1</DefaultVolume>
                     <DefaultPriority>Inherit</DefaultPriority>
                     <DefaultRepeat>Inherit</DefaultRepeat>
-                    <FileLastModifiedDate>2018-02-16 02:04:48Z</FileLastModifiedDate>
+                    <FileLastModifiedDate>2018-04-12 19:30:59Z</FileLastModifiedDate>
                   </AudioClip>
                   <AudioClip>
                     <SourceFileName xml:space="preserve">C:\Users\accurry\Desktop\murder\Sound Design\Music\Made for Game\Themes\marysHouse.ogg</SourceFileName>
@@ -16695,7 +16695,7 @@ return
                     <DefaultVolume>-1</DefaultVolume>
                     <DefaultPriority>Inherit</DefaultPriority>
                     <DefaultRepeat>Inherit</DefaultRepeat>
-                    <FileLastModifiedDate>2018-02-16 02:04:48Z</FileLastModifiedDate>
+                    <FileLastModifiedDate>2018-04-12 19:30:59Z</FileLastModifiedDate>
                   </AudioClip>
                   <AudioClip>
                     <SourceFileName xml:space="preserve">C:\Users\accurry\Desktop\murder\Sound Design\Music\Made for Game\Themes\walkingOutside.ogg</SourceFileName>
@@ -16707,7 +16707,7 @@ return
                     <DefaultVolume>-1</DefaultVolume>
                     <DefaultPriority>Inherit</DefaultPriority>
                     <DefaultRepeat>Inherit</DefaultRepeat>
-                    <FileLastModifiedDate>2018-02-16 02:04:48Z</FileLastModifiedDate>
+                    <FileLastModifiedDate>2018-04-12 19:30:59Z</FileLastModifiedDate>
                   </AudioClip>
                 </AudioClips>
                 <AudioClipFolder>
