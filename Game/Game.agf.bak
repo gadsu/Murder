@@ -5015,7 +5015,7 @@
                 <ID>26</ID>
                 <ScriptName>cMaria</ScriptName>
                 <RealName>Maria</RealName>
-                <NormalView>39</NormalView>
+                <NormalView>48</NormalView>
                 <SpeechView>0</SpeechView>
                 <IdleView>0</IdleView>
                 <ThinkingView>0</ThinkingView>
@@ -10342,22 +10342,22 @@ return
                     <Sprites>
                       <Sprite Slot="38" Width="40" Height="40" ColorDepth="32" Resolution="LowRes" AlphaChannel="False">
                         <Source>
-                          <FileName>C:\Users\accurry\Desktop\Murder\Art\Workable Assets\Characters\Peter Petersen Sr\Peter Petersen Sr Right.png</FileName>
+                          <FileName>C:\Users\DSU\Documents\GitHub\Murder\Art\Workable Assets\Characters\Peter Petersen Sr\Peter Petersen Sr Right.png</FileName>
                         </Source>
                       </Sprite>
                       <Sprite Slot="39" Width="40" Height="40" ColorDepth="32" Resolution="LowRes" AlphaChannel="False">
                         <Source>
-                          <FileName>C:\Users\accurry\Desktop\Murder\Art\Workable Assets\Characters\Peter Petersen Sr\Peter Petersen Sr Left.png</FileName>
+                          <FileName>C:\Users\DSU\Documents\GitHub\Murder\Art\Workable Assets\Characters\Peter Petersen Sr\Peter Petersen Sr Left.png</FileName>
                         </Source>
                       </Sprite>
                       <Sprite Slot="40" Width="40" Height="40" ColorDepth="32" Resolution="LowRes" AlphaChannel="False">
                         <Source>
-                          <FileName>C:\Users\accurry\Desktop\Murder\Art\Workable Assets\Characters\Peter Petersen Sr\Peter Petersen Sr Front.png</FileName>
+                          <FileName>C:\Users\DSU\Documents\GitHub\Murder\Art\Workable Assets\Characters\Peter Petersen Sr\Peter Petersen Sr Front.png</FileName>
                         </Source>
                       </Sprite>
                       <Sprite Slot="41" Width="40" Height="40" ColorDepth="32" Resolution="LowRes" AlphaChannel="False">
                         <Source>
-                          <FileName>C:\Users\accurry\Desktop\Murder\Art\Workable Assets\Characters\Peter Petersen Sr\Peter Petersen Sr Back.png</FileName>
+                          <FileName>C:\Users\DSU\Documents\GitHub\Murder\Art\Workable Assets\Characters\Peter Petersen Sr\Peter Petersen Sr Back.png</FileName>
                         </Source>
                       </Sprite>
                     </Sprites>
@@ -11266,24 +11266,24 @@ return
                       </SpriteFolder>
                     </SubFolders>
                     <Sprites>
-                      <Sprite Slot="79" Width="30" Height="30" ColorDepth="32" Resolution="LowRes" AlphaChannel="False">
+                      <Sprite Slot="79" Width="60" Height="60" ColorDepth="32" Resolution="LowRes" AlphaChannel="False">
                         <Source>
-                          <FileName>C:\Users\accurry\Desktop\Murder\Art\Workable Assets\Characters\Rachel Lee\Rachel Lee Back.png</FileName>
+                          <FileName>C:\Users\DSU\Documents\GitHub\Murder\Art\Workable Assets\Characters\Rachel Lee\Rachel Lee Back Large.png</FileName>
                         </Source>
                       </Sprite>
                       <Sprite Slot="80" Width="60" Height="60" ColorDepth="32" Resolution="LowRes" AlphaChannel="False">
                         <Source>
-                          <FileName>C:\Users\DSU\Desktop\Murder\Art\Workable Assets\Characters\Rachel Lee\Rachel Lee Front Large.png</FileName>
+                          <FileName>C:\Users\DSU\Documents\GitHub\Murder\Art\Workable Assets\Characters\Rachel Lee\Rachel Lee Front Large.png</FileName>
                         </Source>
                       </Sprite>
-                      <Sprite Slot="81" Width="30" Height="30" ColorDepth="32" Resolution="LowRes" AlphaChannel="False">
+                      <Sprite Slot="81" Width="60" Height="60" ColorDepth="32" Resolution="LowRes" AlphaChannel="False">
                         <Source>
-                          <FileName>C:\Users\accurry\Desktop\Murder\Art\Workable Assets\Characters\Rachel Lee\Rachel Lee Left.png</FileName>
+                          <FileName>C:\Users\DSU\Documents\GitHub\Murder\Art\Workable Assets\Characters\Rachel Lee\Rachel Lee Left Large.png</FileName>
                         </Source>
                       </Sprite>
-                      <Sprite Slot="82" Width="30" Height="30" ColorDepth="32" Resolution="LowRes" AlphaChannel="False">
+                      <Sprite Slot="82" Width="60" Height="60" ColorDepth="32" Resolution="LowRes" AlphaChannel="False">
                         <Source>
-                          <FileName>C:\Users\accurry\Desktop\Murder\Art\Workable Assets\Characters\Rachel Lee\Rachel Lee Right.png</FileName>
+                          <FileName>C:\Users\DSU\Documents\GitHub\Murder\Art\Workable Assets\Characters\Rachel Lee\Rachel Lee Right Large.png</FileName>
                         </Source>
                       </Sprite>
                     </Sprites>
@@ -11606,24 +11606,24 @@ return
                   <SpriteFolder Name="Stephen">
                     <SubFolders />
                     <Sprites>
-                      <Sprite Slot="103" Width="40" Height="40" ColorDepth="32" Resolution="LowRes" AlphaChannel="False">
+                      <Sprite Slot="103" Width="80" Height="80" ColorDepth="32" Resolution="LowRes" AlphaChannel="False">
                         <Source>
-                          <FileName>C:\Users\accurry\Desktop\Murder\Art\Workable Assets\Characters\Stephen Smith\Stephen Smith Back.png</FileName>
+                          <FileName>C:\Users\DSU\Documents\GitHub\Murder\Art\Workable Assets\Characters\Stephen Smith\Stephen Smith Back Large.png</FileName>
                         </Source>
                       </Sprite>
-                      <Sprite Slot="104" Width="40" Height="40" ColorDepth="32" Resolution="LowRes" AlphaChannel="False">
+                      <Sprite Slot="104" Width="80" Height="80" ColorDepth="32" Resolution="LowRes" AlphaChannel="False">
                         <Source>
-                          <FileName>C:\Users\accurry\Desktop\Murder\Art\Workable Assets\Characters\Stephen Smith\Stephen Smith Front.png</FileName>
+                          <FileName>C:\Users\DSU\Documents\GitHub\Murder\Art\Workable Assets\Characters\Stephen Smith\Stephen Smith Front Large.png</FileName>
                         </Source>
                       </Sprite>
-                      <Sprite Slot="105" Width="40" Height="40" ColorDepth="32" Resolution="LowRes" AlphaChannel="False">
+                      <Sprite Slot="105" Width="80" Height="80" ColorDepth="32" Resolution="LowRes" AlphaChannel="False">
                         <Source>
-                          <FileName>C:\Users\accurry\Desktop\Murder\Art\Workable Assets\Characters\Stephen Smith\Stephen Smith Left.png</FileName>
+                          <FileName>C:\Users\DSU\Documents\GitHub\Murder\Art\Workable Assets\Characters\Stephen Smith\Stephen Smith Left Large.png</FileName>
                         </Source>
                       </Sprite>
-                      <Sprite Slot="106" Width="40" Height="40" ColorDepth="32" Resolution="LowRes" AlphaChannel="False">
+                      <Sprite Slot="106" Width="80" Height="80" ColorDepth="32" Resolution="LowRes" AlphaChannel="False">
                         <Source>
-                          <FileName>C:\Users\accurry\Desktop\Murder\Art\Workable Assets\Characters\Stephen Smith\Stephen Smith Right.png</FileName>
+                          <FileName>C:\Users\DSU\Documents\GitHub\Murder\Art\Workable Assets\Characters\Stephen Smith\Stephen Smith Right Large.png</FileName>
                         </Source>
                       </Sprite>
                     </Sprites>
@@ -11631,24 +11631,24 @@ return
                   <SpriteFolder Name="Frederick">
                     <SubFolders />
                     <Sprites>
-                      <Sprite Slot="234" Width="40" Height="40" ColorDepth="32" Resolution="LowRes" AlphaChannel="False">
+                      <Sprite Slot="234" Width="80" Height="80" ColorDepth="32" Resolution="LowRes" AlphaChannel="False">
                         <Source>
-                          <FileName>C:\Users\accurry\Desktop\Murder\Art\Workable Assets\Characters\Frederick Smith\Frederick Smith Back.png</FileName>
+                          <FileName>C:\Users\DSU\Documents\GitHub\Murder\Art\Workable Assets\Characters\Frederick Smith\Frederick Smith Back Large.png</FileName>
                         </Source>
                       </Sprite>
-                      <Sprite Slot="299" Width="40" Height="40" ColorDepth="32" Resolution="LowRes" AlphaChannel="False">
+                      <Sprite Slot="299" Width="80" Height="80" ColorDepth="32" Resolution="LowRes" AlphaChannel="False">
                         <Source>
-                          <FileName>C:\Users\accurry\Desktop\Murder\Art\Workable Assets\Characters\Frederick Smith\Frederick Smith Front.png</FileName>
+                          <FileName>C:\Users\DSU\Documents\GitHub\Murder\Art\Workable Assets\Characters\Frederick Smith\Frederick Smith Front Large.png</FileName>
                         </Source>
                       </Sprite>
-                      <Sprite Slot="300" Width="40" Height="40" ColorDepth="32" Resolution="LowRes" AlphaChannel="False">
+                      <Sprite Slot="300" Width="80" Height="80" ColorDepth="32" Resolution="LowRes" AlphaChannel="False">
                         <Source>
-                          <FileName>C:\Users\accurry\Desktop\Murder\Art\Workable Assets\Characters\Frederick Smith\Frederick Smith Left.png</FileName>
+                          <FileName>C:\Users\DSU\Documents\GitHub\Murder\Art\Workable Assets\Characters\Frederick Smith\Frederick Smith Left Large.png</FileName>
                         </Source>
                       </Sprite>
-                      <Sprite Slot="301" Width="40" Height="40" ColorDepth="32" Resolution="LowRes" AlphaChannel="False">
+                      <Sprite Slot="301" Width="80" Height="80" ColorDepth="32" Resolution="LowRes" AlphaChannel="False">
                         <Source>
-                          <FileName>C:\Users\accurry\Desktop\Murder\Art\Workable Assets\Characters\Frederick Smith\Frederick Smith Right.png</FileName>
+                          <FileName>C:\Users\DSU\Documents\GitHub\Murder\Art\Workable Assets\Characters\Frederick Smith\Frederick Smith Right Large.png</FileName>
                         </Source>
                       </Sprite>
                     </Sprites>
@@ -11661,24 +11661,24 @@ return
                   <SpriteFolder Name="Pastor ">
                     <SubFolders />
                     <Sprites>
-                      <Sprite Slot="107" Width="40" Height="40" ColorDepth="32" Resolution="LowRes" AlphaChannel="False">
+                      <Sprite Slot="107" Width="80" Height="80" ColorDepth="32" Resolution="LowRes" AlphaChannel="False">
                         <Source>
-                          <FileName>C:\Users\accurry\Desktop\Murder\Art\Workable Assets\Characters\Pastor O'Kean\Pastor O'Kean Back.png</FileName>
+                          <FileName>C:\Users\DSU\Documents\GitHub\Murder\Art\Workable Assets\Characters\Pastor O'Kean\Pastor O'Kean Back Large.png</FileName>
                         </Source>
                       </Sprite>
-                      <Sprite Slot="108" Width="40" Height="40" ColorDepth="32" Resolution="LowRes" AlphaChannel="False">
+                      <Sprite Slot="108" Width="80" Height="80" ColorDepth="32" Resolution="LowRes" AlphaChannel="False">
                         <Source>
-                          <FileName>C:\Users\accurry\Desktop\Murder\Art\Workable Assets\Characters\Pastor O'Kean\Pastor O'Kean Front.png</FileName>
+                          <FileName>C:\Users\DSU\Documents\GitHub\Murder\Art\Workable Assets\Characters\Pastor O'Kean\Pastor O'Kean Front Large.png</FileName>
                         </Source>
                       </Sprite>
-                      <Sprite Slot="109" Width="40" Height="40" ColorDepth="32" Resolution="LowRes" AlphaChannel="False">
+                      <Sprite Slot="109" Width="80" Height="80" ColorDepth="32" Resolution="LowRes" AlphaChannel="False">
                         <Source>
-                          <FileName>C:\Users\accurry\Desktop\Murder\Art\Workable Assets\Characters\Pastor O'Kean\Pastor O'Kean Left.png</FileName>
+                          <FileName>C:\Users\DSU\Documents\GitHub\Murder\Art\Workable Assets\Characters\Pastor O'Kean\Pastor O'Kean Left Large.png</FileName>
                         </Source>
                       </Sprite>
-                      <Sprite Slot="110" Width="40" Height="40" ColorDepth="32" Resolution="LowRes" AlphaChannel="False">
+                      <Sprite Slot="110" Width="80" Height="80" ColorDepth="32" Resolution="LowRes" AlphaChannel="False">
                         <Source>
-                          <FileName>C:\Users\accurry\Desktop\Murder\Art\Workable Assets\Characters\Pastor O'Kean\Pastor O'Kean Right.png</FileName>
+                          <FileName>C:\Users\DSU\Documents\GitHub\Murder\Art\Workable Assets\Characters\Pastor O'Kean\Pastor O'Kean Right Large.png</FileName>
                         </Source>
                       </Sprite>
                     </Sprites>
@@ -11691,24 +11691,24 @@ return
                   <SpriteFolder Name="Alexander">
                     <SubFolders />
                     <Sprites>
-                      <Sprite Slot="87" Width="40" Height="40" ColorDepth="32" Resolution="LowRes" AlphaChannel="False">
+                      <Sprite Slot="87" Width="80" Height="80" ColorDepth="32" Resolution="LowRes" AlphaChannel="False">
                         <Source>
-                          <FileName>C:\Users\accurry\Desktop\Murder\Art\Workable Assets\Characters\Alexander Nelsen\Alexander Nelson Back.png</FileName>
+                          <FileName>C:\Users\DSU\Documents\GitHub\Murder\Art\Workable Assets\Characters\Alexander Nelsen\Alexander Nelson Back Large.png</FileName>
                         </Source>
                       </Sprite>
-                      <Sprite Slot="88" Width="40" Height="40" ColorDepth="32" Resolution="LowRes" AlphaChannel="False">
+                      <Sprite Slot="88" Width="80" Height="80" ColorDepth="32" Resolution="LowRes" AlphaChannel="False">
                         <Source>
-                          <FileName>C:\Users\accurry\Desktop\Murder\Art\Workable Assets\Characters\Alexander Nelsen\Alexander Nelson Front.png</FileName>
+                          <FileName>C:\Users\DSU\Documents\GitHub\Murder\Art\Workable Assets\Characters\Alexander Nelsen\Alexander Nelson Front Large.png</FileName>
                         </Source>
                       </Sprite>
-                      <Sprite Slot="89" Width="40" Height="40" ColorDepth="32" Resolution="LowRes" AlphaChannel="False">
+                      <Sprite Slot="89" Width="80" Height="80" ColorDepth="32" Resolution="LowRes" AlphaChannel="False">
                         <Source>
-                          <FileName>C:\Users\accurry\Desktop\Murder\Art\Workable Assets\Characters\Alexander Nelsen\Alexander Nelson Left.png</FileName>
+                          <FileName>C:\Users\DSU\Documents\GitHub\Murder\Art\Workable Assets\Characters\Alexander Nelsen\Alexander Nelson Left Large.png</FileName>
                         </Source>
                       </Sprite>
-                      <Sprite Slot="90" Width="40" Height="40" ColorDepth="32" Resolution="LowRes" AlphaChannel="False">
+                      <Sprite Slot="90" Width="80" Height="80" ColorDepth="32" Resolution="LowRes" AlphaChannel="False">
                         <Source>
-                          <FileName>C:\Users\accurry\Desktop\Murder\Art\Workable Assets\Characters\Alexander Nelsen\Alexander Nelson Right.png</FileName>
+                          <FileName>C:\Users\DSU\Documents\GitHub\Murder\Art\Workable Assets\Characters\Alexander Nelsen\Alexander Nelson Right Large.png</FileName>
                         </Source>
                       </Sprite>
                     </Sprites>
@@ -11716,24 +11716,24 @@ return
                   <SpriteFolder Name="Valerie">
                     <SubFolders />
                     <Sprites>
-                      <Sprite Slot="91" Width="40" Height="40" ColorDepth="32" Resolution="LowRes" AlphaChannel="False">
+                      <Sprite Slot="91" Width="80" Height="80" ColorDepth="32" Resolution="LowRes" AlphaChannel="False">
                         <Source>
-                          <FileName>C:\Users\accurry\Desktop\Murder\Art\Workable Assets\Characters\Valerie Nelsen\Valerie Nelson Back.png</FileName>
+                          <FileName>C:\Users\DSU\Documents\GitHub\Murder\Art\Workable Assets\Characters\Valerie Nelsen\Valerie Nelson Back Large.png</FileName>
                         </Source>
                       </Sprite>
-                      <Sprite Slot="92" Width="40" Height="40" ColorDepth="32" Resolution="LowRes" AlphaChannel="False">
+                      <Sprite Slot="92" Width="80" Height="80" ColorDepth="32" Resolution="LowRes" AlphaChannel="False">
                         <Source>
-                          <FileName>C:\Users\accurry\Desktop\Murder\Art\Workable Assets\Characters\Valerie Nelsen\Valerie Nelson Front.png</FileName>
+                          <FileName>C:\Users\DSU\Documents\GitHub\Murder\Art\Workable Assets\Characters\Valerie Nelsen\Valerie Nelson Front Large.png</FileName>
                         </Source>
                       </Sprite>
-                      <Sprite Slot="93" Width="40" Height="40" ColorDepth="32" Resolution="LowRes" AlphaChannel="False">
+                      <Sprite Slot="93" Width="80" Height="80" ColorDepth="32" Resolution="LowRes" AlphaChannel="False">
                         <Source>
-                          <FileName>C:\Users\accurry\Desktop\Murder\Art\Workable Assets\Characters\Valerie Nelsen\Valerie Nelson Left.png</FileName>
+                          <FileName>C:\Users\DSU\Documents\GitHub\Murder\Art\Workable Assets\Characters\Valerie Nelsen\Valerie Nelson Left Large.png</FileName>
                         </Source>
                       </Sprite>
-                      <Sprite Slot="94" Width="40" Height="40" ColorDepth="32" Resolution="LowRes" AlphaChannel="False">
+                      <Sprite Slot="94" Width="80" Height="80" ColorDepth="32" Resolution="LowRes" AlphaChannel="False">
                         <Source>
-                          <FileName>C:\Users\accurry\Desktop\Murder\Art\Workable Assets\Characters\Valerie Nelsen\Valerie Nelson Right.png</FileName>
+                          <FileName>C:\Users\DSU\Documents\GitHub\Murder\Art\Workable Assets\Characters\Valerie Nelsen\Valerie Nelson Right Large.png</FileName>
                         </Source>
                       </Sprite>
                     </Sprites>
@@ -11862,6 +11862,31 @@ return
                   <Sprite Slot="655" Width="80" Height="80" ColorDepth="32" Resolution="LowRes" AlphaChannel="False">
                     <Source>
                       <FileName>C:\Users\DSU\Desktop\Murder\Art\Workable Assets\Characters\Katie\Katie Back Large.png</FileName>
+                    </Source>
+                  </Sprite>
+                </Sprites>
+              </SpriteFolder>
+              <SpriteFolder Name="Maria">
+                <SubFolders />
+                <Sprites>
+                  <Sprite Slot="659" Width="80" Height="80" ColorDepth="32" Resolution="LowRes" AlphaChannel="False">
+                    <Source>
+                      <FileName>C:\Users\DSU\Documents\GitHub\Murder\Art\Workable Assets\Characters\Maria\Maria Front Large.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="660" Width="80" Height="80" ColorDepth="32" Resolution="LowRes" AlphaChannel="False">
+                    <Source>
+                      <FileName>C:\Users\DSU\Documents\GitHub\Murder\Art\Workable Assets\Characters\Maria\Maria Back Large.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="661" Width="80" Height="80" ColorDepth="32" Resolution="LowRes" AlphaChannel="False">
+                    <Source>
+                      <FileName>C:\Users\DSU\Documents\GitHub\Murder\Art\Workable Assets\Characters\Maria\Maria Left Large.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="662" Width="80" Height="80" ColorDepth="32" Resolution="LowRes" AlphaChannel="False">
+                    <Source>
+                      <FileName>C:\Users\DSU\Documents\GitHub\Murder\Art\Workable Assets\Characters\Maria\Maria Right Large.png</FileName>
                     </Source>
                   </Sprite>
                 </Sprites>
@@ -15120,7 +15145,7 @@ return
                     <Frames>
                       <ViewFrame>
                         <ID>0</ID>
-                        <Image>0</Image>
+                        <Image>659</Image>
                         <Flipped>False</Flipped>
                         <Delay>0</Delay>
                         <Sound>0</Sound>
@@ -15133,7 +15158,7 @@ return
                     <Frames>
                       <ViewFrame>
                         <ID>0</ID>
-                        <Image>0</Image>
+                        <Image>661</Image>
                         <Flipped>False</Flipped>
                         <Delay>0</Delay>
                         <Sound>0</Sound>
@@ -15146,7 +15171,7 @@ return
                     <Frames>
                       <ViewFrame>
                         <ID>0</ID>
-                        <Image>0</Image>
+                        <Image>662</Image>
                         <Flipped>False</Flipped>
                         <Delay>0</Delay>
                         <Sound>0</Sound>
@@ -15159,7 +15184,7 @@ return
                     <Frames>
                       <ViewFrame>
                         <ID>0</ID>
-                        <Image>0</Image>
+                        <Image>660</Image>
                         <Flipped>False</Flipped>
                         <Delay>0</Delay>
                         <Sound>0</Sound>
