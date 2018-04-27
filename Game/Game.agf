@@ -8288,9 +8288,7 @@ stop]]></Script>
             <ShowTextParser>False</ShowTextParser>
             <Script><![CDATA[// Dialog script file
 @S  // Dialog startup entry point
-cJimmy: Hi again.
-cJimmy: At this point, Jimmy will have returned to his parent's home and gone to sleep for the night.
-cJimmy: See you again!
+Narrator: Jimmy returns to his parent's house for the night, and starts his investigation in the morning.
   SetVisibility(btnLibrary);
   SetVisibilityGUI(gMap);
   MakeButtonsClickable(btnMap);
