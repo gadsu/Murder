@@ -5467,8 +5467,17 @@ stop
                         <Script><![CDATA[// Dialog script file
 @S  // Dialog startup entry point
 return
+@1
+return
 ]]></Script>
-                        <DialogOptions />
+                        <DialogOptions>
+                          <DialogOption>
+                            <ID>1</ID>
+                            <Text />
+                            <Show>True</Show>
+                            <Say>True</Say>
+                          </DialogOption>
+                        </DialogOptions>
                       </Dialog>
                       <Dialog>
                         <ID>54</ID>
@@ -5477,8 +5486,17 @@ return
                         <Script><![CDATA[// Dialog script file
 @S  // Dialog startup entry point
 return
+@1
+return
 ]]></Script>
-                        <DialogOptions />
+                        <DialogOptions>
+                          <DialogOption>
+                            <ID>1</ID>
+                            <Text />
+                            <Show>True</Show>
+                            <Say>True</Say>
+                          </DialogOption>
+                        </DialogOptions>
                       </Dialog>
                     </Dialogs>
                   </DialogFolder>
@@ -5602,8 +5620,17 @@ stop
                         <Script><![CDATA[// Dialog script file
 @S  // Dialog startup entry point
 return
+@1
+return
 ]]></Script>
-                        <DialogOptions />
+                        <DialogOptions>
+                          <DialogOption>
+                            <ID>1</ID>
+                            <Text />
+                            <Show>True</Show>
+                            <Say>True</Say>
+                          </DialogOption>
+                        </DialogOptions>
                       </Dialog>
                       <Dialog>
                         <ID>52</ID>
@@ -5612,8 +5639,17 @@ return
                         <Script><![CDATA[// Dialog script file
 @S  // Dialog startup entry point
 return
+@1
+return
 ]]></Script>
-                        <DialogOptions />
+                        <DialogOptions>
+                          <DialogOption>
+                            <ID>1</ID>
+                            <Text />
+                            <Show>True</Show>
+                            <Say>True</Say>
+                          </DialogOption>
+                        </DialogOptions>
                       </Dialog>
                       <Dialog>
                         <ID>9</ID>
@@ -5622,8 +5658,17 @@ return
                         <Script><![CDATA[// Dialog script file
 @S  // Dialog startup entry point
 return
+@1
+return
 ]]></Script>
-                        <DialogOptions />
+                        <DialogOptions>
+                          <DialogOption>
+                            <ID>1</ID>
+                            <Text />
+                            <Show>True</Show>
+                            <Say>True</Say>
+                          </DialogOption>
+                        </DialogOptions>
                       </Dialog>
                     </Dialogs>
                   </DialogFolder>
@@ -5692,8 +5737,17 @@ stop
                         <Script><![CDATA[// Dialog script file
 @S  // Dialog startup entry point
 return
+@1
+return
 ]]></Script>
-                        <DialogOptions />
+                        <DialogOptions>
+                          <DialogOption>
+                            <ID>1</ID>
+                            <Text />
+                            <Show>True</Show>
+                            <Say>True</Say>
+                          </DialogOption>
+                        </DialogOptions>
                       </Dialog>
                       <Dialog>
                         <ID>63</ID>
@@ -5702,8 +5756,17 @@ return
                         <Script><![CDATA[// Dialog script file
 @S  // Dialog startup entry point
 return
+@1
+return
 ]]></Script>
-                        <DialogOptions />
+                        <DialogOptions>
+                          <DialogOption>
+                            <ID>1</ID>
+                            <Text />
+                            <Show>True</Show>
+                            <Say>True</Say>
+                          </DialogOption>
+                        </DialogOptions>
                       </Dialog>
                     </Dialogs>
                   </DialogFolder>
@@ -5722,8 +5785,17 @@ return
                         <Script><![CDATA[// Dialog script file
 @S  // Dialog startup entry point
 return
+@1
+stop
 ]]></Script>
-                        <DialogOptions />
+                        <DialogOptions>
+                          <DialogOption>
+                            <ID>1</ID>
+                            <Text />
+                            <Show>True</Show>
+                            <Say>True</Say>
+                          </DialogOption>
+                        </DialogOptions>
                       </Dialog>
                       <Dialog>
                         <ID>79</ID>
@@ -5732,8 +5804,17 @@ return
                         <Script><![CDATA[// Dialog script file
 @S  // Dialog startup entry point
 return
+@1
+return
 ]]></Script>
-                        <DialogOptions />
+                        <DialogOptions>
+                          <DialogOption>
+                            <ID>1</ID>
+                            <Text />
+                            <Show>True</Show>
+                            <Say>True</Say>
+                          </DialogOption>
+                        </DialogOptions>
                       </Dialog>
                       <Dialog>
                         <ID>80</ID>
@@ -5742,8 +5823,16 @@ return
                         <Script><![CDATA[// Dialog script file
 @S  // Dialog startup entry point
 return
-]]></Script>
-                        <DialogOptions />
+@1
+stop]]></Script>
+                        <DialogOptions>
+                          <DialogOption>
+                            <ID>1</ID>
+                            <Text />
+                            <Show>True</Show>
+                            <Say>True</Say>
+                          </DialogOption>
+                        </DialogOptions>
                       </Dialog>
                       <Dialog>
                         <ID>81</ID>
@@ -5752,8 +5841,17 @@ return
                         <Script><![CDATA[// Dialog script file
 @S  // Dialog startup entry point
 return
+@1
+return
 ]]></Script>
-                        <DialogOptions />
+                        <DialogOptions>
+                          <DialogOption>
+                            <ID>1</ID>
+                            <Text />
+                            <Show>True</Show>
+                            <Say>True</Say>
+                          </DialogOption>
+                        </DialogOptions>
                       </Dialog>
                     </Dialogs>
                   </DialogFolder>
@@ -6992,6 +7090,24 @@ stop
                       <DialogOption>
                         <ID>4</ID>
                         <Text>Goodbye</Text>
+                        <Show>True</Show>
+                        <Say>True</Say>
+                      </DialogOption>
+                    </DialogOptions>
+                  </Dialog>
+                  <Dialog>
+                    <ID>161</ID>
+                    <Name>dValerieNED2</Name>
+                    <ShowTextParser>False</ShowTextParser>
+                    <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+return
+@1
+stop]]></Script>
+                    <DialogOptions>
+                      <DialogOption>
+                        <ID>1</ID>
+                        <Text />
                         <Show>True</Show>
                         <Say>True</Say>
                       </DialogOption>
@@ -8288,9 +8404,7 @@ stop]]></Script>
             <ShowTextParser>False</ShowTextParser>
             <Script><![CDATA[// Dialog script file
 @S  // Dialog startup entry point
-cJimmy: Hi again.
-cJimmy: At this point, Jimmy will have returned to his parent's home and gone to sleep for the night.
-cJimmy: See you again!
+Narrator: Jimmy returns to his parent's house for the night, and starts his investigation in the morning.
   SetVisibility(btnLibrary);
   SetVisibilityGUI(gMap);
   MakeButtonsClickable(btnMap);
@@ -8321,6 +8435,25 @@ Narrator: Please look forward to the full release of the game.
 return
 ]]></Script>
             <DialogOptions />
+          </Dialog>
+          <Dialog>
+            <ID>162</ID>
+            <Name>dRachelLED2</Name>
+            <ShowTextParser>False</ShowTextParser>
+            <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+return
+@1
+stop
+]]></Script>
+            <DialogOptions>
+              <DialogOption>
+                <ID>1</ID>
+                <Text />
+                <Show>True</Show>
+                <Say>True</Say>
+              </DialogOption>
+            </DialogOptions>
           </Dialog>
         </Dialogs>
       </DialogFolder>
